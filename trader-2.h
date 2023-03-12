@@ -24,6 +24,8 @@
 #include <unordered_set>
 #include <map>
 #include <cmath>
+#include <ctime>
+#include <iostream>
 #include <boost/asio/io_context.hpp>
 
 #include <ready_trader_go/baseautotrader.h>
@@ -32,9 +34,6 @@
 class AutoTrader : public ReadyTraderGo::BaseAutoTrader
 {
 public:
-    const unsigned int l0_w = 0.5;
-    const unsigned int l1_w = 0.35;
-    const unsigned int l2_w = 0.15;
 
     explicit AutoTrader(boost::asio::io_context& context);
 
@@ -115,9 +114,20 @@ private:
     unsigned long mBidVolume = 0;
     signed long mPosition = 0;
 
+    const unsigned int l0_w = 0.375;
+    const unsigned int l1_w = 0.275;
+    const unsigned int l2_w = 0.15;
+    const unsigned int l3_w = 0.1;
+    const unsigned int l4_w = 0.05;
+
     unsigned int risk_factor = 10;
     std::map<int, int> bid_vol_map;
     std::map<int, int> ask_vol_map;
+
+    // for Exchange rules
+    unsigned int action_cnt = 0;
+    std::time_t begin_time = 0;
+    std::time_t time_diff = 0;
     
     std::unordered_set<unsigned long> mAsks;
     std::unordered_set<unsigned long> mBids;
