@@ -12,6 +12,7 @@ cmake --version
 brew install cmake
 cmake --version
 ```
+**Note: you can directly use** `bash build.sh` **after install cmake and boost.**
 ## 1.2 Compile
 To compile an autotrader:
 ```shell
