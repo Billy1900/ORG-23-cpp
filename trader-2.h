@@ -120,7 +120,7 @@ private:
     const unsigned int l3_w = 0.1;
     const unsigned int l4_w = 0.05;
 
-    unsigned int risk_factor = 10;
+    unsigned int risk_factor = 4;
     std::map<int, int> bid_vol_map;
     std::map<int, int> ask_vol_map;
 
