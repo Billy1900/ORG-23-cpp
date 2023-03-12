@@ -95,12 +95,14 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
             if (mAskId != 0 && newAskPrice != 0 && newAskPrice != mAskPrice)
             {
                 SendCancelOrder(mAskId);
+                std::cout<<"send cancel order\n";
                 mAskId = 0;
                 action_cnt++;
             }
             if (mBidId != 0 && newBidPrice != 0 && newBidPrice != mBidPrice)
             {
                 SendCancelOrder(mBidId);
+                std::cout<<"send cancel order\n";
                 mBidId = 0;
                 action_cnt++;
             }
@@ -110,6 +112,9 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
             {
                 mAskId = mNextMessageId++;
                 mAskPrice = newAskPrice;
+                // mAskVolume = ask_vol_map[mPosition];
+                mAskVolume = 50;
+                std::cout<<"send insert order\n";
                 SendInsertOrder(mAskId, Side::SELL, newAskPrice, mAskVolume, Lifespan::GOOD_FOR_DAY); // dynamic mAskVolume will consider market impact or minimize risk
                 mAsks.emplace(mAskId);
                 action_cnt++;
@@ -118,14 +123,17 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
             {
                 mBidId = mNextMessageId++;
                 mBidPrice = newBidPrice;
+                // mBidVolume = bid_vol_map[mPosition];
+                mBidVolume = 50;
+                std::cout<<"send insert order\n";
                 SendInsertOrder(mBidId, Side::BUY, newBidPrice, mBidVolume, Lifespan::GOOD_FOR_DAY);
                 mBids.emplace(mBidId);
                 action_cnt++;
             }
         }else if (action_cnt >= 49){
             time_diff = std::difftime(std::time(nullptr), begin_time);
-            std::cout << "sleep " << 1.0-time_diff << " seconds" << std::endl;
             if (time_diff < 1.0){
+                std::cout << "sleep " << 1.0-time_diff << " seconds" << std::endl;
                 sleep(1.0-time_diff);
             }
             action_cnt = 0;
@@ -188,11 +196,11 @@ void AutoTrader::TradeTicksMessageHandler(Instrument instrument,
 }
 
 
-void AutoTrader::PositionChangeMessageHandler(int future_position, int etf_position){
-    mPosition = etf_position;
-    mBidVolume = bid_vol_map[mPosition];
-    mAskVolume = ask_vol_map[mPosition];
-}
+// void AutoTrader::PositionChangeMessageHandler(int future_position, int etf_position){
+//     mPosition = etf_position;
+//     mBidVolume = bid_vol_map[mPosition];
+//     mAskVolume = ask_vol_map[mPosition];
+// }
 
 std::pair<std::map<int, int>, std::map<int, int>> AutoTrader::QuoteMaps(unsigned int riskFactor){
     std::map<int, int> bid_vol_map;
