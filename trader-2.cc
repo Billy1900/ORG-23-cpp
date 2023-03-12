@@ -107,13 +107,14 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
                 action_cnt++;
             }
 
+            mAskVolume = ask_vol_map[mPosition];
+            mBidVolume = bid_vol_map[mPosition];
             // Determine bid volume according to current position.
             if (mAskId == 0 && newAskPrice != 0 && mPosition > -POSITION_LIMIT && mAskVolume != 0)
             {
                 mAskId = mNextMessageId++;
                 mAskPrice = newAskPrice;
                 // mAskVolume = ask_vol_map[mPosition];
-                mAskVolume = 50;
                 std::cout<<"send insert order\n";
                 SendInsertOrder(mAskId, Side::SELL, newAskPrice, mAskVolume, Lifespan::GOOD_FOR_DAY); // dynamic mAskVolume will consider market impact or minimize risk
                 mAsks.emplace(mAskId);
@@ -124,7 +125,7 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
                 mBidId = mNextMessageId++;
                 mBidPrice = newBidPrice;
                 // mBidVolume = bid_vol_map[mPosition];
-                mBidVolume = 50;
+                
                 std::cout<<"send insert order\n";
                 SendInsertOrder(mBidId, Side::BUY, newBidPrice, mBidVolume, Lifespan::GOOD_FOR_DAY);
                 mBids.emplace(mBidId);
@@ -133,8 +134,8 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
         }else if (action_cnt >= 49){
             time_diff = std::difftime(std::time(nullptr), begin_time);
             if (time_diff < 1.0){
-                std::cout << "sleep " << 1.0-time_diff << " seconds" << std::endl;
-                sleep(1.0-time_diff);
+                // std::cout << "sleep " << 1.0-time_diff << " seconds" << std::endl;
+                // sleep(1.0-time_diff);
             }
             action_cnt = 0;
         }
