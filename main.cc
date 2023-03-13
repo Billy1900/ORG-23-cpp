@@ -22,7 +22,7 @@
 #include <ready_trader_go/autotraderapphandler.h>
 #include <ready_trader_go/error.h>
 
-#include "autotrader.h"
+#include "trader-2.h"
 
 int main(int argc, char* argv[])
 {

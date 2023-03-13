@@ -1,0 +1,1186 @@
+2023-03-12 20:34:33.047904 [INFO   ] [APP] application started
+2023-03-12 20:34:33.048453 [INFO   ] [APP] loading configuration from 'trader-2.json'
+2023-03-12 20:34:33.048951 [INFO   ] [CON] connecting to: 127.0.0.1:12345
+2023-03-12 20:34:33.049141 [INFO   ] [CON] connected successfully to: 127.0.0.1:12345
+2023-03-12 20:34:33.049179 [INFO   ] [BASE] logging in with teamname='TraderTwo' and secret='secret'
+2023-03-12 20:34:35.198649 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 1000; bid prices: 146900; bid volumes: 13000
+2023-03-12 20:34:35.198827 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:35.198930 [INFO   ] [AUTO] error with order 1: price is not a multiple of tick size
+2023-03-12 20:34:35.199391 [INFO   ] [AUTO] error with order 2: price is not a multiple of tick size
+2023-03-12 20:34:35.412136 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 5000
+2023-03-12 20:34:35.412433 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:34:35.413961 [INFO   ] [AUTO] error with order 3: price is not a multiple of tick size
+2023-03-12 20:34:35.414863 [INFO   ] [AUTO] error with order 4: price is not a multiple of tick size
+2023-03-12 20:34:35.704486 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 1000
+2023-03-12 20:34:35.705037 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:34:35.708106 [INFO   ] [AUTO] error with order 5: price is not a multiple of tick size
+2023-03-12 20:34:35.713279 [INFO   ] [AUTO] error with order 6: price is not a multiple of tick size
+2023-03-12 20:34:35.903692 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 10; bid prices: 147000; bid volumes: 4000
+2023-03-12 20:34:35.903957 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:34:35.975799 [INFO   ] [AUTO] order 7 filled for 46 lots at $147100 cents
+2023-03-12 20:34:35.976986 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147100; ask volumes: 46; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:35.977339 [INFO   ] [AUTO] hedge order 9 filled for 46 lots at $147100 average price in cents
+2023-03-12 20:34:36.185391 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:36.231058 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 6000; bid prices: 147000; bid volumes: 6000
+2023-03-12 20:34:36.231217 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146900; bid volumes: 46
+2023-03-12 20:34:36.242492 [INFO   ] [AUTO] error with order 10: price is not a multiple of tick size
+2023-03-12 20:34:36.242741 [INFO   ] [AUTO] error with order 11: price is not a multiple of tick size
+2023-03-12 20:34:36.462963 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 9400; bid prices: 147000; bid volumes: 5000
+2023-03-12 20:34:36.463279 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146600; bid volumes: 10000
+2023-03-12 20:34:36.463624 [INFO   ] [AUTO] error with order 12: price is not a multiple of tick size
+2023-03-12 20:34:36.464034 [INFO   ] [AUTO] error with order 13: price is not a multiple of tick size
+2023-03-12 20:34:36.651467 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 147000; bid volumes: 900
+2023-03-12 20:34:36.651652 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146500; bid volumes: 10000
+2023-03-12 20:34:36.655774 [INFO   ] [AUTO] error with order 14: price is not a multiple of tick size
+2023-03-12 20:34:36.656006 [INFO   ] [AUTO] error with order 15: price is not a multiple of tick size
+2023-03-12 20:34:36.925904 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 20; bid prices: 147000; bid volumes: 12900
+2023-03-12 20:34:36.926096 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:34:37.150569 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9420; bid prices: 147000; bid volumes: 900
+2023-03-12 20:34:37.150760 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146900; bid volumes: 69
+2023-03-12 20:34:37.152452 [INFO   ] [AUTO] error with order 18: price is not a multiple of tick size
+2023-03-12 20:34:37.152733 [INFO   ] [AUTO] error with order 19: price is not a multiple of tick size
+2023-03-12 20:34:37.197703 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 900
+2023-03-12 20:34:37.330754 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 500
+2023-03-12 20:34:37.415326 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 13400; bid prices: 146900; bid volumes: 4000
+2023-03-12 20:34:37.415679 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:34:37.416401 [INFO   ] [AUTO] error with order 20: price is not a multiple of tick size
+2023-03-12 20:34:37.417143 [INFO   ] [AUTO] error with order 21: price is not a multiple of tick size
+2023-03-12 20:34:37.659475 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9400; bid prices: 146800; bid volumes: 3000
+2023-03-12 20:34:37.659586 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:34:37.660008 [INFO   ] [AUTO] error with order 22: price is not a multiple of tick size
+2023-03-12 20:34:37.660318 [INFO   ] [AUTO] error with order 23: price is not a multiple of tick size
+2023-03-12 20:34:37.660494 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146400; bid volumes: 71
+2023-03-12 20:34:37.981226 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146700; bid volumes: 1000
+2023-03-12 20:34:37.981414 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:37.981646 [INFO   ] [AUTO] error with order 24: price is not a multiple of tick size
+2023-03-12 20:34:37.981935 [INFO   ] [AUTO] error with order 25: price is not a multiple of tick size
+2023-03-12 20:34:38.163134 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146700; bid volumes: 1000
+2023-03-12 20:34:38.163314 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:38.163556 [INFO   ] [AUTO] error with order 26: price is not a multiple of tick size
+2023-03-12 20:34:38.163852 [INFO   ] [AUTO] error with order 27: price is not a multiple of tick size
+2023-03-12 20:34:38.404604 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9400; bid prices: 146800; bid volumes: 3000
+2023-03-12 20:34:38.404754 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146300; bid volumes: 10000
+2023-03-12 20:34:38.410899 [INFO   ] [AUTO] error with order 28: price is not a multiple of tick size
+2023-03-12 20:34:38.411907 [INFO   ] [AUTO] error with order 29: price is not a multiple of tick size
+2023-03-12 20:34:38.580231 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:38.671943 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9000; bid prices: 146800; bid volumes: 13000
+2023-03-12 20:34:38.672112 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 10000; bid prices: 146300; bid volumes: 10000
+2023-03-12 20:34:38.672285 [INFO   ] [AUTO] error with order 30: price is not a multiple of tick size
+2023-03-12 20:34:38.672588 [INFO   ] [AUTO] error with order 31: price is not a multiple of tick size
+2023-03-12 20:34:38.837684 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146300; bid volumes: 17
+2023-03-12 20:34:38.904529 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 13000
+2023-03-12 20:34:38.904794 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 10000; bid prices: 146300; bid volumes: 9983
+2023-03-12 20:34:38.905096 [INFO   ] [AUTO] error with order 32: price is not a multiple of tick size
+2023-03-12 20:34:38.905388 [INFO   ] [AUTO] error with order 33: price is not a multiple of tick size
+2023-03-12 20:34:39.170257 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13400; bid prices: 146800; bid volumes: 2000
+2023-03-12 20:34:39.170442 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 10000; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:39.170961 [INFO   ] [AUTO] error with order 34: price is not a multiple of tick size
+2023-03-12 20:34:39.171273 [INFO   ] [AUTO] error with order 35: price is not a multiple of tick size
+2023-03-12 20:34:39.461909 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13400; bid prices: 146800; bid volumes: 5000
+2023-03-12 20:34:39.463347 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:39.463394 [INFO   ] [AUTO] error with order 36: price is not a multiple of tick size
+2023-03-12 20:34:39.464313 [INFO   ] [AUTO] error with order 37: price is not a multiple of tick size
+2023-03-12 20:34:39.680062 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146300; bid volumes: 19
+2023-03-12 20:34:39.701344 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 15130; bid prices: 146800; bid volumes: 2000
+2023-03-12 20:34:39.701517 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146300; bid volumes: 9981
+2023-03-12 20:34:39.702573 [INFO   ] [AUTO] error with order 38: price is not a multiple of tick size
+2023-03-12 20:34:39.703172 [INFO   ] [AUTO] error with order 39: price is not a multiple of tick size
+2023-03-12 20:34:39.919809 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 8400; bid prices: 146600; bid volumes: 3000
+2023-03-12 20:34:39.919987 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146300; bid volumes: 9981
+2023-03-12 20:34:39.923004 [INFO   ] [AUTO] error with order 40: price is not a multiple of tick size
+2023-03-12 20:34:39.923398 [INFO   ] [AUTO] error with order 41: price is not a multiple of tick size
+2023-03-12 20:34:40.166969 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 13400; bid prices: 146700; bid volumes: 5000
+2023-03-12 20:34:40.167340 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146100; bid volumes: 10000
+2023-03-12 20:34:40.179251 [INFO   ] [AUTO] error with order 42: price is not a multiple of tick size
+2023-03-12 20:34:40.181791 [INFO   ] [AUTO] error with order 43: price is not a multiple of tick size
+2023-03-12 20:34:40.396432 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146800; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:40.494904 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9400; bid prices: 146800; bid volumes: 13000
+2023-03-12 20:34:40.495139 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146300; bid volumes: 10000
+2023-03-12 20:34:40.496589 [INFO   ] [AUTO] error with order 44: price is not a multiple of tick size
+2023-03-12 20:34:40.497205 [INFO   ] [AUTO] error with order 45: price is not a multiple of tick size
+2023-03-12 20:34:40.710791 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 9400; bid prices: 147000; bid volumes: 3000
+2023-03-12 20:34:40.710983 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146300; bid volumes: 10000
+2023-03-12 20:34:40.711175 [INFO   ] [AUTO] error with order 46: price is not a multiple of tick size
+2023-03-12 20:34:40.711431 [INFO   ] [AUTO] error with order 47: price is not a multiple of tick size
+2023-03-12 20:34:40.974793 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 3000
+2023-03-12 20:34:40.975016 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 84
+2023-03-12 20:34:41.202198 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 3400; bid prices: 146700; bid volumes: 4000
+2023-03-12 20:34:41.202414 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 84
+2023-03-12 20:34:41.206455 [INFO   ] [AUTO] error with order 48: price is not a multiple of tick size
+2023-03-12 20:34:41.216068 [INFO   ] [AUTO] error with order 49: price is not a multiple of tick size
+2023-03-12 20:34:41.255315 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-12 20:34:41.490976 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 146600; bid volumes: 5760
+2023-03-12 20:34:41.491155 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:41.492776 [INFO   ] [AUTO] error with order 50: price is not a multiple of tick size
+2023-03-12 20:34:41.493128 [INFO   ] [AUTO] error with order 51: price is not a multiple of tick size
+2023-03-12 20:34:41.694036 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 146600; bid volumes: 14750
+2023-03-12 20:34:41.694190 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:41.694860 [INFO   ] [AUTO] error with order 52: price is not a multiple of tick size
+2023-03-12 20:34:41.695139 [INFO   ] [AUTO] error with order 53: price is not a multiple of tick size
+2023-03-12 20:34:41.775621 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147200; ask volumes: 44; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:41.830370 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:41.965227 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2150; bid prices: 146700; bid volumes: 6000
+2023-03-12 20:34:41.965466 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 9976; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:41.966403 [INFO   ] [AUTO] error with order 54: price is not a multiple of tick size
+2023-03-12 20:34:41.966900 [INFO   ] [AUTO] error with order 55: price is not a multiple of tick size
+2023-03-12 20:34:42.146144 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 750; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:42.200992 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9000; bid prices: 146800; bid volumes: 32740
+2023-03-12 20:34:42.201995 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:42.202423 [INFO   ] [AUTO] error with order 56: price is not a multiple of tick size
+2023-03-12 20:34:42.202665 [INFO   ] [AUTO] error with order 57: price is not a multiple of tick size
+2023-03-12 20:34:42.436475 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 15410; bid prices: 146800; bid volumes: 15760
+2023-03-12 20:34:42.436678 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:42.439221 [INFO   ] [AUTO] error with order 58: price is not a multiple of tick size
+2023-03-12 20:34:42.439250 [INFO   ] [AUTO] error with order 59: price is not a multiple of tick size
+2023-03-12 20:34:42.673412 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 16410; bid prices: 146800; bid volumes: 14760
+2023-03-12 20:34:42.673911 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:42.674430 [INFO   ] [AUTO] error with order 60: price is not a multiple of tick size
+2023-03-12 20:34:42.675169 [INFO   ] [AUTO] error with order 61: price is not a multiple of tick size
+2023-03-12 20:34:42.973093 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146800; bid volumes: 3000
+2023-03-12 20:34:42.973599 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:42.973932 [INFO   ] [AUTO] error with order 62: price is not a multiple of tick size
+2023-03-12 20:34:42.974682 [INFO   ] [AUTO] error with order 63: price is not a multiple of tick size
+2023-03-12 20:34:43.150489 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 14800
+2023-03-12 20:34:43.150692 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:34:43.150901 [INFO   ] [AUTO] error with order 64: price is not a multiple of tick size
+2023-03-12 20:34:43.151146 [INFO   ] [AUTO] error with order 65: price is not a multiple of tick size
+2023-03-12 20:34:43.340562 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 39
+2023-03-12 20:34:43.474611 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 12400; bid prices: 146800; bid volumes: 2000
+2023-03-12 20:34:43.474755 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 59
+2023-03-12 20:34:43.478484 [INFO   ] [AUTO] error with order 66: price is not a multiple of tick size
+2023-03-12 20:34:43.479222 [INFO   ] [AUTO] error with order 67: price is not a multiple of tick size
+2023-03-12 20:34:43.673276 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 12400; bid prices: 146800; bid volumes: 2020
+2023-03-12 20:34:43.673484 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 59
+2023-03-12 20:34:43.673771 [INFO   ] [AUTO] error with order 68: price is not a multiple of tick size
+2023-03-12 20:34:43.673970 [INFO   ] [AUTO] error with order 69: price is not a multiple of tick size
+2023-03-12 20:34:43.902963 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 1000; bid prices: 146700; bid volumes: 14810
+2023-03-12 20:34:43.903252 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 59
+2023-03-12 20:34:43.905841 [INFO   ] [AUTO] error with order 70: price is not a multiple of tick size
+2023-03-12 20:34:43.968623 [INFO   ] [AUTO] error with order 71: price is not a multiple of tick size
+2023-03-12 20:34:44.089715 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 59
+2023-03-12 20:34:44.157162 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 2020
+2023-03-12 20:34:44.158856 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:44.158887 [INFO   ] [AUTO] error with order 72: price is not a multiple of tick size
+2023-03-12 20:34:44.158997 [INFO   ] [AUTO] error with order 73: price is not a multiple of tick size
+2023-03-12 20:34:44.490253 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2400; bid prices: 146700; bid volumes: 4810
+2023-03-12 20:34:44.490658 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:44.491121 [INFO   ] [AUTO] error with order 74: price is not a multiple of tick size
+2023-03-12 20:34:44.491685 [INFO   ] [AUTO] error with order 75: price is not a multiple of tick size
+2023-03-12 20:34:44.713132 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 1010; bid prices: 146600; bid volumes: 13810
+2023-03-12 20:34:44.713559 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146100; bid volumes: 10000
+2023-03-12 20:34:44.716310 [INFO   ] [AUTO] error with order 76: price is not a multiple of tick size
+2023-03-12 20:34:44.716890 [INFO   ] [AUTO] error with order 77: price is not a multiple of tick size
+2023-03-12 20:34:44.995022 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 14410; bid prices: 146600; bid volumes: 12020
+2023-03-12 20:34:44.995810 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146000; bid volumes: 10000
+2023-03-12 20:34:44.996322 [INFO   ] [AUTO] error with order 78: price is not a multiple of tick size
+2023-03-12 20:34:44.997745 [INFO   ] [AUTO] error with order 79: price is not a multiple of tick size
+2023-03-12 20:34:45.229564 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 11400; bid prices: 146600; bid volumes: 2020
+2023-03-12 20:34:45.229869 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146000; bid volumes: 10000
+2023-03-12 20:34:45.229955 [INFO   ] [AUTO] error with order 80: price is not a multiple of tick size
+2023-03-12 20:34:45.230439 [INFO   ] [AUTO] error with order 81: price is not a multiple of tick size
+2023-03-12 20:34:45.416939 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2000; bid prices: 146700; bid volumes: 13810
+2023-03-12 20:34:45.418627 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:45.418921 [INFO   ] [AUTO] error with order 82: price is not a multiple of tick size
+2023-03-12 20:34:45.419538 [INFO   ] [AUTO] error with order 83: price is not a multiple of tick size
+2023-03-12 20:34:45.708277 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:45.708444 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146900; bid volumes: 1390
+2023-03-12 20:34:45.708788 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:34:45.711878 [INFO   ] [AUTO] error with order 84: price is not a multiple of tick size
+2023-03-12 20:34:45.712506 [INFO   ] [AUTO] error with order 85: price is not a multiple of tick size
+2023-03-12 20:34:45.844175 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146200; bid volumes: 12
+2023-03-12 20:34:45.845224 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147000; ask volumes: 710; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:45.932263 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:45.966867 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 3430; bid prices: 147000; bid volumes: 1020
+2023-03-12 20:34:45.967034 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 146500; bid volumes: 9930
+2023-03-12 20:34:45.969130 [INFO   ] [AUTO] error with order 86: price is not a multiple of tick size
+2023-03-12 20:34:45.969491 [INFO   ] [AUTO] error with order 87: price is not a multiple of tick size
+2023-03-12 20:34:45.973252 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147300; ask volumes: 33; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:46.191937 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 3030; bid prices: 147000; bid volumes: 13780
+2023-03-12 20:34:46.192461 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 146500; bid volumes: 10000
+2023-03-12 20:34:46.193683 [INFO   ] [AUTO] error with order 88: price is not a multiple of tick size
+2023-03-12 20:34:46.195827 [INFO   ] [AUTO] error with order 89: price is not a multiple of tick size
+2023-03-12 20:34:46.470702 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 2030; bid prices: 147000; bid volumes: 15780
+2023-03-12 20:34:46.471078 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 146600; bid volumes: 152
+2023-03-12 20:34:46.471487 [INFO   ] [AUTO] error with order 90: price is not a multiple of tick size
+2023-03-12 20:34:46.471982 [INFO   ] [AUTO] error with order 91: price is not a multiple of tick size
+2023-03-12 20:34:46.734874 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 147100; bid volumes: 4020
+2023-03-12 20:34:46.735042 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 146600; bid volumes: 152
+2023-03-12 20:34:46.735304 [INFO   ] [AUTO] error with order 92: price is not a multiple of tick size
+2023-03-12 20:34:46.736012 [INFO   ] [AUTO] error with order 93: price is not a multiple of tick size
+2023-03-12 20:34:46.788557 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:46.936274 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 0; bid volumes: 0
+2023-03-12 20:34:46.979129 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14000; bid prices: 146900; bid volumes: 2000
+2023-03-12 20:34:46.979373 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146700; bid volumes: 10000
+2023-03-12 20:34:46.979524 [INFO   ] [AUTO] error with order 94: price is not a multiple of tick size
+2023-03-12 20:34:46.979857 [INFO   ] [AUTO] error with order 95: price is not a multiple of tick size
+2023-03-12 20:34:47.166566 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 14020
+2023-03-12 20:34:47.208476 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:34:47.217053 [INFO   ] [AUTO] error with order 96: price is not a multiple of tick size
+2023-03-12 20:34:47.218928 [INFO   ] [AUTO] error with order 97: price is not a multiple of tick size
+2023-03-12 20:34:47.415230 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146800; bid volumes: 14800
+2023-03-12 20:34:47.415963 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:34:47.677526 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146900; bid volumes: 4020
+2023-03-12 20:34:47.677781 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:34:47.678109 [INFO   ] [AUTO] error with order 98: price is not a multiple of tick size
+2023-03-12 20:34:47.678390 [INFO   ] [AUTO] error with order 99: price is not a multiple of tick size
+2023-03-12 20:34:47.873851 [INFO   ] [CON] 'Exec' remote disconnect
+2023-03-12 20:34:47.873897 [INFO   ] [AUTO] execution connection lost
+2023-03-12 20:34:47.873954 [INFO   ] [CON] 'Info' closing
+2023-03-12 20:34:47.873996 [INFO   ] [CON] 'Exec' closing
+2023-03-12 20:35:45.098101 [INFO   ] [APP] application started
+2023-03-12 20:35:45.098835 [INFO   ] [APP] loading configuration from 'trader-2.json'
+2023-03-12 20:35:45.099718 [INFO   ] [CON] connecting to: 127.0.0.1:12345
+2023-03-12 20:35:45.099969 [INFO   ] [CON] connected successfully to: 127.0.0.1:12345
+2023-03-12 20:35:45.100015 [INFO   ] [BASE] logging in with teamname='TraderTwo' and secret='secret'
+2023-03-12 20:35:49.926173 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 1000; bid prices: 146900; bid volumes: 13000
+2023-03-12 20:35:49.926652 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:49.927842 [INFO   ] [AUTO] error with order 1: price is not a multiple of tick size
+2023-03-12 20:35:49.927860 [INFO   ] [AUTO] error with order 2: price is not a multiple of tick size
+2023-03-12 20:35:50.163095 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 13000
+2023-03-12 20:35:50.167126 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:35:50.167361 [INFO   ] [AUTO] error with order 3: price is not a multiple of tick size
+2023-03-12 20:35:50.167689 [INFO   ] [AUTO] error with order 4: price is not a multiple of tick size
+2023-03-12 20:35:50.375208 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 10400; bid prices: 146300; bid volumes: 1000
+2023-03-12 20:35:50.375689 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:35:50.376460 [INFO   ] [AUTO] error with order 5: price is not a multiple of tick size
+2023-03-12 20:35:50.377103 [INFO   ] [AUTO] error with order 6: price is not a multiple of tick size
+2023-03-12 20:35:50.701420 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147600; ask volumes: 121; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:50.708266 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9410; bid prices: 146900; bid volumes: 3450
+2023-03-12 20:35:50.708891 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147600; ask volumes: 10000; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:35:50.710566 [INFO   ] [AUTO] error with order 7: price is not a multiple of tick size
+2023-03-12 20:35:50.710949 [INFO   ] [AUTO] error with order 8: price is not a multiple of tick size
+2023-03-12 20:35:50.933511 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:50.955556 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 1000; bid prices: 147100; bid volumes: 15000
+2023-03-12 20:35:50.957857 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:35:50.974465 [INFO   ] [AUTO] error with order 9: price is not a multiple of tick size
+2023-03-12 20:35:50.974502 [INFO   ] [AUTO] error with order 10: price is not a multiple of tick size
+2023-03-12 20:35:51.224563 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 10400; bid prices: 147000; bid volumes: 4000
+2023-03-12 20:35:51.225024 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146600; bid volumes: 10000
+2023-03-12 20:35:51.225547 [INFO   ] [AUTO] error with order 11: price is not a multiple of tick size
+2023-03-12 20:35:51.226181 [INFO   ] [AUTO] error with order 12: price is not a multiple of tick size
+2023-03-12 20:35:51.416994 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 147000; bid volumes: 900
+2023-03-12 20:35:51.417697 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146500; bid volumes: 10000
+2023-03-12 20:35:51.418846 [INFO   ] [AUTO] error with order 13: price is not a multiple of tick size
+2023-03-12 20:35:51.418862 [INFO   ] [AUTO] error with order 14: price is not a multiple of tick size
+2023-03-12 20:35:51.649878 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 20; bid prices: 147000; bid volumes: 12900
+2023-03-12 20:35:51.650621 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:35:51.909432 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9400; bid prices: 146800; bid volumes: 10000
+2023-03-12 20:35:51.914390 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146900; bid volumes: 46
+2023-03-12 20:35:51.918311 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 900
+2023-03-12 20:35:51.918423 [INFO   ] [AUTO] error with order 17: price is not a multiple of tick size
+2023-03-12 20:35:51.918434 [INFO   ] [AUTO] error with order 18: price is not a multiple of tick size
+2023-03-12 20:35:52.061540 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 500
+2023-03-12 20:35:52.154311 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 13400; bid prices: 146900; bid volumes: 4000
+2023-03-12 20:35:52.154530 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146400; bid volumes: 10000
+2023-03-12 20:35:52.155317 [INFO   ] [AUTO] error with order 19: price is not a multiple of tick size
+2023-03-12 20:35:52.155866 [INFO   ] [AUTO] error with order 20: price is not a multiple of tick size
+2023-03-12 20:35:52.371376 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146400; bid volumes: 71
+2023-03-12 20:35:52.434892 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 2000
+2023-03-12 20:35:52.435050 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146400; bid volumes: 9929
+2023-03-12 20:35:52.437281 [INFO   ] [AUTO] error with order 21: price is not a multiple of tick size
+2023-03-12 20:35:52.437610 [INFO   ] [AUTO] error with order 22: price is not a multiple of tick size
+2023-03-12 20:35:52.662771 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146700; bid volumes: 1000
+2023-03-12 20:35:52.663005 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:52.663334 [INFO   ] [AUTO] error with order 23: price is not a multiple of tick size
+2023-03-12 20:35:52.663567 [INFO   ] [AUTO] error with order 24: price is not a multiple of tick size
+2023-03-12 20:35:52.958520 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146800; bid volumes: 3000
+2023-03-12 20:35:52.958774 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:52.959100 [INFO   ] [AUTO] error with order 25: price is not a multiple of tick size
+2023-03-12 20:35:52.959360 [INFO   ] [AUTO] error with order 26: price is not a multiple of tick size
+2023-03-12 20:35:53.224451 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1400; bid prices: 146900; bid volumes: 3000
+2023-03-12 20:35:53.224662 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 146300; bid volumes: 10000
+2023-03-12 20:35:53.224851 [INFO   ] [AUTO] error with order 27: price is not a multiple of tick size
+2023-03-12 20:35:53.225195 [INFO   ] [AUTO] error with order 28: price is not a multiple of tick size
+2023-03-12 20:35:53.308848 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147000; ask volumes: 1; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:53.425222 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9000; bid prices: 146800; bid volumes: 13000
+2023-03-12 20:35:53.425472 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 10000; bid prices: 146300; bid volumes: 10000
+2023-03-12 20:35:53.425739 [INFO   ] [AUTO] error with order 29: price is not a multiple of tick size
+2023-03-12 20:35:53.426053 [INFO   ] [AUTO] error with order 30: price is not a multiple of tick size
+2023-03-12 20:35:53.560729 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146300; bid volumes: 17
+2023-03-12 20:35:53.670233 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 13000
+2023-03-12 20:35:53.671733 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 10000; bid prices: 146300; bid volumes: 9983
+2023-03-12 20:35:53.672957 [INFO   ] [AUTO] error with order 31: price is not a multiple of tick size
+2023-03-12 20:35:53.673494 [INFO   ] [AUTO] error with order 32: price is not a multiple of tick size
+2023-03-12 20:35:53.944197 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 14120; bid prices: 146800; bid volumes: 2000
+2023-03-12 20:35:53.944461 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 10000; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:53.944812 [INFO   ] [AUTO] error with order 33: price is not a multiple of tick size
+2023-03-12 20:35:53.945324 [INFO   ] [AUTO] error with order 34: price is not a multiple of tick size
+2023-03-12 20:35:54.133813 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13400; bid prices: 146800; bid volumes: 5000
+2023-03-12 20:35:54.134836 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:54.136164 [INFO   ] [AUTO] error with order 35: price is not a multiple of tick size
+2023-03-12 20:35:54.136292 [INFO   ] [AUTO] error with order 36: price is not a multiple of tick size
+2023-03-12 20:35:54.398052 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146300; bid volumes: 19
+2023-03-12 20:35:54.417050 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 15130; bid prices: 146800; bid volumes: 2000
+2023-03-12 20:35:54.417412 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146300; bid volumes: 9981
+2023-03-12 20:35:54.418228 [INFO   ] [AUTO] error with order 37: price is not a multiple of tick size
+2023-03-12 20:35:54.418840 [INFO   ] [AUTO] error with order 38: price is not a multiple of tick size
+2023-03-12 20:35:54.656096 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 13400; bid prices: 146600; bid volumes: 11750
+2023-03-12 20:35:54.656649 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146100; bid volumes: 10000
+2023-03-12 20:35:54.658356 [INFO   ] [AUTO] error with order 39: price is not a multiple of tick size
+2023-03-12 20:35:54.658740 [INFO   ] [AUTO] error with order 40: price is not a multiple of tick size
+2023-03-12 20:35:54.923622 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 9000; bid prices: 146700; bid volumes: 2000
+2023-03-12 20:35:54.924238 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:54.925544 [INFO   ] [AUTO] error with order 41: price is not a multiple of tick size
+2023-03-12 20:35:54.926154 [INFO   ] [AUTO] error with order 42: price is not a multiple of tick size
+2023-03-12 20:35:55.133559 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146800; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:55.148525 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 9400; bid prices: 146800; bid volumes: 13000
+2023-03-12 20:35:55.149583 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:55.149758 [INFO   ] [AUTO] error with order 43: price is not a multiple of tick size
+2023-03-12 20:35:55.150096 [INFO   ] [AUTO] error with order 44: price is not a multiple of tick size
+2023-03-12 20:35:55.381979 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1400; bid prices: 147000; bid volumes: 14000
+2023-03-12 20:35:55.382732 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 146300; bid volumes: 10000
+2023-03-12 20:35:55.385290 [INFO   ] [AUTO] error with order 45: price is not a multiple of tick size
+2023-03-12 20:35:55.386369 [INFO   ] [AUTO] error with order 46: price is not a multiple of tick size
+2023-03-12 20:35:55.710786 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 3000
+2023-03-12 20:35:55.712057 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 84
+2023-03-12 20:35:55.714259 [INFO   ] [AUTO] error with order 47: price is not a multiple of tick size
+2023-03-12 20:35:55.714285 [INFO   ] [AUTO] error with order 48: price is not a multiple of tick size
+2023-03-12 20:35:55.930363 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 2000
+2023-03-12 20:35:55.930629 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 84
+2023-03-12 20:35:56.017073 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146800; bid volumes: 10
+2023-03-12 20:35:56.127657 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 12400; bid prices: 146600; bid volumes: 2000
+2023-03-12 20:35:56.128956 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 84
+2023-03-12 20:35:56.133404 [INFO   ] [AUTO] error with order 49: price is not a multiple of tick size
+2023-03-12 20:35:56.137793 [INFO   ] [AUTO] error with order 50: price is not a multiple of tick size
+2023-03-12 20:35:56.394381 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 146600; bid volumes: 14760
+2023-03-12 20:35:56.396079 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147200; ask volumes: 20; bid prices: 147000; bid volumes: 98
+2023-03-12 20:35:56.396289 [INFO   ] [AUTO] error with order 51: price is not a multiple of tick size
+2023-03-12 20:35:56.398847 [INFO   ] [AUTO] error with order 52: price is not a multiple of tick size
+2023-03-12 20:35:56.504519 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147200; ask volumes: 44; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:56.552497 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146700; ask volumes: 1010; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:56.700447 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2150; bid prices: 146700; bid volumes: 5000
+2023-03-12 20:35:56.700761 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:35:56.701092 [INFO   ] [AUTO] error with order 53: price is not a multiple of tick size
+2023-03-12 20:35:56.701386 [INFO   ] [AUTO] error with order 54: price is not a multiple of tick size
+2023-03-12 20:35:56.864984 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 750; bid prices: 0; bid volumes: 0
+2023-03-12 20:35:56.973335 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 9400; bid prices: 146900; bid volumes: 13000
+2023-03-12 20:35:56.973524 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:35:56.974202 [INFO   ] [AUTO] error with order 55: price is not a multiple of tick size
+2023-03-12 20:35:56.974986 [INFO   ] [AUTO] error with order 56: price is not a multiple of tick size
+2023-03-12 20:35:57.185380 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 13410; bid prices: 146900; bid volumes: 2000
+2023-03-12 20:35:57.186280 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:35:57.189584 [INFO   ] [AUTO] error with order 57: price is not a multiple of tick size
+2023-03-12 20:35:57.189936 [INFO   ] [AUTO] error with order 58: price is not a multiple of tick size
+2023-03-12 20:35:57.425757 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 16410; bid prices: 146800; bid volumes: 14760
+2023-03-12 20:35:57.426038 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:35:57.426564 [INFO   ] [AUTO] error with order 59: price is not a multiple of tick size
+2023-03-12 20:35:57.426950 [INFO   ] [AUTO] error with order 60: price is not a multiple of tick size
+2023-03-12 20:35:57.673733 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146800; bid volumes: 3000
+2023-03-12 20:35:57.674531 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:35:57.674771 [INFO   ] [AUTO] error with order 61: price is not a multiple of tick size
+2023-03-12 20:35:57.675308 [INFO   ] [AUTO] error with order 62: price is not a multiple of tick size
+2023-03-12 20:35:57.962384 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 11020
+2023-03-12 20:35:57.962720 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 98
+2023-03-12 20:35:57.967391 [INFO   ] [AUTO] error with order 63: price is not a multiple of tick size
+2023-03-12 20:35:57.971238 [INFO   ] [AUTO] error with order 64: price is not a multiple of tick size
+2023-03-12 20:35:58.047439 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 39
+2023-03-12 20:35:58.130073 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 11400; bid prices: 146800; bid volumes: 12020
+2023-03-12 20:35:58.130676 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 59
+2023-03-12 20:35:58.130717 [INFO   ] [AUTO] error with order 65: price is not a multiple of tick size
+2023-03-12 20:35:58.131606 [INFO   ] [AUTO] error with order 66: price is not a multiple of tick size
+2023-03-12 20:35:58.425361 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 12400; bid prices: 146800; bid volumes: 2020
+2023-03-12 20:35:58.425539 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 59
+2023-03-12 20:35:58.426204 [INFO   ] [AUTO] error with order 67: price is not a multiple of tick size
+2023-03-12 20:35:58.426510 [INFO   ] [AUTO] error with order 68: price is not a multiple of tick size
+2023-03-12 20:35:58.710838 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 11400; bid prices: 146700; bid volumes: 2020
+2023-03-12 20:35:58.711101 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 147000; bid volumes: 59
+2023-03-12 20:35:58.711512 [INFO   ] [AUTO] error with order 69: price is not a multiple of tick size
+2023-03-12 20:35:58.712460 [INFO   ] [AUTO] error with order 70: price is not a multiple of tick size
+2023-03-12 20:35:58.793899 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 59
+2023-03-12 20:35:58.927988 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 12400; bid prices: 146700; bid volumes: 2020
+2023-03-12 20:35:58.928144 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:58.928768 [INFO   ] [AUTO] error with order 71: price is not a multiple of tick size
+2023-03-12 20:35:58.930001 [INFO   ] [AUTO] error with order 72: price is not a multiple of tick size
+2023-03-12 20:35:59.172979 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2000; bid prices: 146700; bid volumes: 12810
+2023-03-12 20:35:59.182839 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:59.185916 [INFO   ] [AUTO] error with order 73: price is not a multiple of tick size
+2023-03-12 20:35:59.187306 [INFO   ] [AUTO] error with order 74: price is not a multiple of tick size
+2023-03-12 20:35:59.390592 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 8400; bid prices: 146600; bid volumes: 13810
+2023-03-12 20:35:59.391000 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:35:59.411739 [INFO   ] [AUTO] error with order 75: price is not a multiple of tick size
+2023-03-12 20:35:59.413505 [INFO   ] [AUTO] error with order 76: price is not a multiple of tick size
+2023-03-12 20:35:59.635966 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146700; ask volumes: 1000; bid prices: 146500; bid volumes: 13790
+2023-03-12 20:35:59.637157 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146100; bid volumes: 10000
+2023-03-12 20:35:59.637247 [INFO   ] [AUTO] error with order 77: price is not a multiple of tick size
+2023-03-12 20:35:59.638926 [INFO   ] [AUTO] error with order 78: price is not a multiple of tick size
+2023-03-12 20:35:59.911066 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 11400; bid prices: 146600; bid volumes: 2020
+2023-03-12 20:35:59.911216 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146000; bid volumes: 10000
+2023-03-12 20:35:59.913837 [INFO   ] [AUTO] error with order 79: price is not a multiple of tick size
+2023-03-12 20:35:59.913949 [INFO   ] [AUTO] error with order 80: price is not a multiple of tick size
+2023-03-12 20:36:00.199331 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 2000; bid prices: 146700; bid volumes: 13810
+2023-03-12 20:36:00.199837 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:36:00.202800 [INFO   ] [AUTO] error with order 81: price is not a multiple of tick size
+2023-03-12 20:36:00.203287 [INFO   ] [AUTO] error with order 82: price is not a multiple of tick size
+2023-03-12 20:36:00.406930 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:00.407130 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146900; bid volumes: 1390
+2023-03-12 20:36:00.407357 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 146200; bid volumes: 10000
+2023-03-12 20:36:00.407760 [INFO   ] [AUTO] error with order 83: price is not a multiple of tick size
+2023-03-12 20:36:00.408819 [INFO   ] [AUTO] error with order 84: price is not a multiple of tick size
+2023-03-12 20:36:00.564958 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146200; bid volumes: 12
+2023-03-12 20:36:00.565151 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147000; ask volumes: 710; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:00.632747 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146400; ask volumes: 70; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:00.659885 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 3430; bid prices: 147000; bid volumes: 1000
+2023-03-12 20:36:00.660029 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 45; bid prices: 146500; bid volumes: 9930
+2023-03-12 20:36:00.661211 [INFO   ] [AUTO] error with order 85: price is not a multiple of tick size
+2023-03-12 20:36:00.661666 [INFO   ] [AUTO] error with order 86: price is not a multiple of tick size
+2023-03-12 20:36:00.696593 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147300; ask volumes: 33; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:00.880964 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 3030; bid prices: 147000; bid volumes: 5780
+2023-03-12 20:36:00.881914 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 146500; bid volumes: 9930
+2023-03-12 20:36:00.883422 [INFO   ] [AUTO] error with order 87: price is not a multiple of tick size
+2023-03-12 20:36:00.883890 [INFO   ] [AUTO] error with order 88: price is not a multiple of tick size
+2023-03-12 20:36:01.182755 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 2030; bid prices: 147000; bid volumes: 15780
+2023-03-12 20:36:01.185540 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 146600; bid volumes: 152
+2023-03-12 20:36:01.185603 [INFO   ] [AUTO] error with order 89: price is not a multiple of tick size
+2023-03-12 20:36:01.186259 [INFO   ] [AUTO] error with order 90: price is not a multiple of tick size
+2023-03-12 20:36:01.441661 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 147100; bid volumes: 5020
+2023-03-12 20:36:01.441934 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 146600; bid volumes: 152
+2023-03-12 20:36:01.442331 [INFO   ] [AUTO] error with order 91: price is not a multiple of tick size
+2023-03-12 20:36:01.442747 [INFO   ] [AUTO] error with order 92: price is not a multiple of tick size
+2023-03-12 20:36:01.508824 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 1030; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:01.645389 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147300; ask volumes: 12; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:01.691133 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 14000; bid prices: 147000; bid volumes: 2020
+2023-03-12 20:36:01.691663 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146700; bid volumes: 10000
+2023-03-12 20:36:01.696232 [INFO   ] [AUTO] error with order 93: price is not a multiple of tick size
+2023-03-12 20:36:01.696502 [INFO   ] [AUTO] error with order 94: price is not a multiple of tick size
+2023-03-12 20:36:01.923452 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 2400; bid prices: 146900; bid volumes: 15760
+2023-03-12 20:36:01.924389 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:36:01.924433 [INFO   ] [AUTO] error with order 95: price is not a multiple of tick size
+2023-03-12 20:36:01.924948 [INFO   ] [AUTO] error with order 96: price is not a multiple of tick size
+2023-03-12 20:36:02.200152 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 15400; bid prices: 146800; bid volumes: 13780
+2023-03-12 20:36:02.201762 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:36:02.227817 [INFO   ] [AUTO] error with order 97: price is not a multiple of tick size
+2023-03-12 20:36:02.227861 [INFO   ] [AUTO] error with order 98: price is not a multiple of tick size
+2023-03-12 20:36:02.377385 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146900; bid volumes: 13790
+2023-03-12 20:36:02.377459 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:36:02.719661 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146900; bid volumes: 2020
+2023-03-12 20:36:02.721107 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:36:02.721206 [INFO   ] [AUTO] error with order 99: price is not a multiple of tick size
+2023-03-12 20:36:02.723704 [INFO   ] [AUTO] error with order 100: price is not a multiple of tick size
+2023-03-12 20:36:02.932065 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 3000; bid prices: 146900; bid volumes: 14790
+2023-03-12 20:36:02.932294 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 152
+2023-03-12 20:36:02.934978 [INFO   ] [AUTO] error with order 101: price is not a multiple of tick size
+2023-03-12 20:36:02.935289 [INFO   ] [AUTO] error with order 102: price is not a multiple of tick size
+2023-03-12 20:36:03.061492 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146700; bid volumes: 41
+2023-03-12 20:36:03.183863 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 4020
+2023-03-12 20:36:03.184167 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:03.185276 [INFO   ] [AUTO] error with order 103: price is not a multiple of tick size
+2023-03-12 20:36:03.186134 [INFO   ] [AUTO] error with order 104: price is not a multiple of tick size
+2023-03-12 20:36:03.457965 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 13000; bid prices: 146800; bid volumes: 9020
+2023-03-12 20:36:03.458114 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:03.459000 [INFO   ] [AUTO] error with order 105: price is not a multiple of tick size
+2023-03-12 20:36:03.459263 [INFO   ] [AUTO] error with order 106: price is not a multiple of tick size
+2023-03-12 20:36:03.640844 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 4400; bid prices: 146800; bid volumes: 11800
+2023-03-12 20:36:03.641423 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 128; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:03.641465 [INFO   ] [AUTO] error with order 107: price is not a multiple of tick size
+2023-03-12 20:36:03.641979 [INFO   ] [AUTO] error with order 108: price is not a multiple of tick size
+2023-03-12 20:36:03.925357 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 14400; bid prices: 146900; bid volumes: 2000
+2023-03-12 20:36:03.925533 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 128; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:03.926600 [INFO   ] [AUTO] error with order 109: price is not a multiple of tick size
+2023-03-12 20:36:03.926906 [INFO   ] [AUTO] error with order 110: price is not a multiple of tick size
+2023-03-12 20:36:04.107444 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 950; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:04.141693 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 10050; bid prices: 147000; bid volumes: 4020
+2023-03-12 20:36:04.141865 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 128; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:04.144912 [INFO   ] [AUTO] error with order 111: price is not a multiple of tick size
+2023-03-12 20:36:04.145191 [INFO   ] [AUTO] error with order 112: price is not a multiple of tick size
+2023-03-12 20:36:04.463213 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 12400; bid prices: 146900; bid volumes: 2000
+2023-03-12 20:36:04.463750 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 75; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:04.463794 [INFO   ] [AUTO] error with order 113: price is not a multiple of tick size
+2023-03-12 20:36:04.464149 [INFO   ] [AUTO] error with order 114: price is not a multiple of tick size
+2023-03-12 20:36:04.697656 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 13020
+2023-03-12 20:36:04.698687 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 75; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:04.698735 [INFO   ] [AUTO] error with order 115: price is not a multiple of tick size
+2023-03-12 20:36:04.700138 [INFO   ] [AUTO] error with order 116: price is not a multiple of tick size
+2023-03-12 20:36:04.962194 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 11400; bid prices: 146900; bid volumes: 3000
+2023-03-12 20:36:04.962336 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 75; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:04.962539 [INFO   ] [AUTO] error with order 117: price is not a multiple of tick size
+2023-03-12 20:36:04.963033 [INFO   ] [AUTO] error with order 118: price is not a multiple of tick size
+2023-03-12 20:36:05.175311 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 12400; bid prices: 146900; bid volumes: 20
+2023-03-12 20:36:05.175518 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 75; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:05.178312 [INFO   ] [AUTO] error with order 119: price is not a multiple of tick size
+2023-03-12 20:36:05.178702 [INFO   ] [AUTO] error with order 120: price is not a multiple of tick size
+2023-03-12 20:36:05.259317 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146900; ask volumes: 19; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:05.378623 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 1000
+2023-03-12 20:36:05.414548 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 3010; bid prices: 146700; bid volumes: 15760
+2023-03-12 20:36:05.414892 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 56; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:05.416113 [INFO   ] [AUTO] error with order 121: price is not a multiple of tick size
+2023-03-12 20:36:05.416998 [INFO   ] [AUTO] error with order 122: price is not a multiple of tick size
+2023-03-12 20:36:05.708068 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 146900; ask volumes: 1010; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:05.718635 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 5400; bid prices: 146900; bid volumes: 3000
+2023-03-12 20:36:05.719428 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 56; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:05.720445 [INFO   ] [AUTO] error with order 123: price is not a multiple of tick size
+2023-03-12 20:36:05.721165 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146900; ask volumes: 12; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:05.721278 [INFO   ] [AUTO] error with order 124: price is not a multiple of tick size
+2023-03-12 20:36:05.886520 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 2000
+2023-03-12 20:36:05.967295 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146800; ask volumes: 1000; bid prices: 146600; bid volumes: 23800
+2023-03-12 20:36:05.967930 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:05.968808 [INFO   ] [AUTO] error with order 125: price is not a multiple of tick size
+2023-03-12 20:36:05.969334 [INFO   ] [AUTO] error with order 126: price is not a multiple of tick size
+2023-03-12 20:36:06.177237 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 146900; ask volumes: 1000; bid prices: 146700; bid volumes: 14740
+2023-03-12 20:36:06.177497 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:06.178456 [INFO   ] [AUTO] error with order 127: price is not a multiple of tick size
+2023-03-12 20:36:06.179116 [INFO   ] [AUTO] error with order 128: price is not a multiple of tick size
+2023-03-12 20:36:06.442522 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10400; bid prices: 146800; bid volumes: 10000
+2023-03-12 20:36:06.443114 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:06.445256 [INFO   ] [AUTO] error with order 129: price is not a multiple of tick size
+2023-03-12 20:36:06.445798 [INFO   ] [AUTO] error with order 130: price is not a multiple of tick size
+2023-03-12 20:36:06.627561 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 1000; bid prices: 146800; bid volumes: 11740
+2023-03-12 20:36:06.627968 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:06.628863 [INFO   ] [AUTO] error with order 131: price is not a multiple of tick size
+2023-03-12 20:36:06.629764 [INFO   ] [AUTO] error with order 132: price is not a multiple of tick size
+2023-03-12 20:36:06.802020 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 9000
+2023-03-12 20:36:06.884658 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 10000; bid prices: 146800; bid volumes: 11740
+2023-03-12 20:36:06.885724 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:06.886828 [INFO   ] [AUTO] error with order 133: price is not a multiple of tick size
+2023-03-12 20:36:06.888852 [INFO   ] [AUTO] error with order 134: price is not a multiple of tick size
+2023-03-12 20:36:07.191769 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147000; ask volumes: 2400; bid prices: 146800; bid volumes: 5740
+2023-03-12 20:36:07.192159 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:07.192597 [INFO   ] [AUTO] error with order 135: price is not a multiple of tick size
+2023-03-12 20:36:07.193740 [INFO   ] [AUTO] error with order 136: price is not a multiple of tick size
+2023-03-12 20:36:07.412140 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 2050; bid prices: 147000; bid volumes: 13740
+2023-03-12 20:36:07.412366 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:07.412516 [INFO   ] [AUTO] error with order 137: price is not a multiple of tick size
+2023-03-12 20:36:07.412790 [INFO   ] [AUTO] error with order 138: price is not a multiple of tick size
+2023-03-12 20:36:07.655987 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 2000; bid prices: 147000; bid volumes: 15740
+2023-03-12 20:36:07.656531 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 149
+2023-03-12 20:36:07.656572 [INFO   ] [AUTO] error with order 139: price is not a multiple of tick size
+2023-03-12 20:36:07.657051 [INFO   ] [AUTO] error with order 140: price is not a multiple of tick size
+2023-03-12 20:36:07.857235 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146600; bid volumes: 65
+2023-03-12 20:36:07.888495 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 1400; bid prices: 147000; bid volumes: 1990
+2023-03-12 20:36:07.889166 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 84
+2023-03-12 20:36:07.891343 [INFO   ] [AUTO] error with order 141: price is not a multiple of tick size
+2023-03-12 20:36:07.891397 [INFO   ] [AUTO] error with order 142: price is not a multiple of tick size
+2023-03-12 20:36:08.144498 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 1400; bid prices: 147000; bid volumes: 1260
+2023-03-12 20:36:08.145340 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 84
+2023-03-12 20:36:08.147680 [INFO   ] [AUTO] error with order 143: price is not a multiple of tick size
+2023-03-12 20:36:08.147784 [INFO   ] [AUTO] error with order 144: price is not a multiple of tick size
+2023-03-12 20:36:08.322256 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:08.430444 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147100; ask volumes: 8400; bid prices: 146900; bid volumes: 10700
+2023-03-12 20:36:08.430649 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 84
+2023-03-12 20:36:08.434116 [INFO   ] [AUTO] error with order 145: price is not a multiple of tick size
+2023-03-12 20:36:08.435627 [INFO   ] [AUTO] error with order 146: price is not a multiple of tick size
+2023-03-12 20:36:08.682072 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 4400; bid prices: 147000; bid volumes: 3700
+2023-03-12 20:36:08.682558 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 84
+2023-03-12 20:36:08.684590 [INFO   ] [AUTO] error with order 147: price is not a multiple of tick size
+2023-03-12 20:36:08.685423 [INFO   ] [AUTO] error with order 148: price is not a multiple of tick size
+2023-03-12 20:36:08.993839 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 4000; bid prices: 147000; bid volumes: 13700
+2023-03-12 20:36:08.995641 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 84
+2023-03-12 20:36:09.177606 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 15000; bid prices: 146900; bid volumes: 10700
+2023-03-12 20:36:09.181141 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 84
+2023-03-12 20:36:09.181279 [INFO   ] [AUTO] error with order 149: price is not a multiple of tick size
+2023-03-12 20:36:09.181624 [INFO   ] [AUTO] error with order 150: price is not a multiple of tick size
+2023-03-12 20:36:09.377097 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 1430; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:09.475520 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1570; bid prices: 147000; bid volumes: 16200
+2023-03-12 20:36:09.476328 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 84
+2023-03-12 20:36:09.480448 [INFO   ] [AUTO] error with order 151: price is not a multiple of tick size
+2023-03-12 20:36:09.480786 [INFO   ] [AUTO] error with order 152: price is not a multiple of tick size
+2023-03-12 20:36:09.643187 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 570; bid prices: 147100; bid volumes: 10000
+2023-03-12 20:36:09.644042 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 10084
+2023-03-12 20:36:09.646316 [INFO   ] [AUTO] error with order 153: price is not a multiple of tick size
+2023-03-12 20:36:09.647221 [INFO   ] [AUTO] error with order 154: price is not a multiple of tick size
+2023-03-12 20:36:09.928500 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 570; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:09.928630 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 10400; bid prices: 147200; bid volumes: 1700
+2023-03-12 20:36:09.928804 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146600; bid volumes: 10084
+2023-03-12 20:36:09.931522 [INFO   ] [AUTO] error with order 155: price is not a multiple of tick size
+2023-03-12 20:36:09.931545 [INFO   ] [AUTO] error with order 156: price is not a multiple of tick size
+2023-03-12 20:36:10.215874 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 1000; bid prices: 147400; bid volumes: 11690
+2023-03-12 20:36:10.216786 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 146700; bid volumes: 10000
+2023-03-12 20:36:10.220752 [INFO   ] [AUTO] error with order 157: price is not a multiple of tick size
+2023-03-12 20:36:10.221965 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 146900; ask volumes: 44; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:10.222144 [INFO   ] [AUTO] error with order 158: price is not a multiple of tick size
+2023-03-12 20:36:10.346764 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147800; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:10.372129 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147900; ask volumes: 230; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:10.419641 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147900; ask volumes: 770; bid prices: 147800; bid volumes: 1000
+2023-03-12 20:36:10.419926 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 148; bid prices: 146900; bid volumes: 9956
+2023-03-12 20:36:10.422365 [INFO   ] [AUTO] error with order 159: price is not a multiple of tick size
+2023-03-12 20:36:10.422391 [INFO   ] [AUTO] error with order 160: price is not a multiple of tick size
+2023-03-12 20:36:10.508613 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147000; ask volumes: 148; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:10.622182 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147900; bid volumes: 1000
+2023-03-12 20:36:10.657204 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147400; ask volumes: 18; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:10.660284 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147900; ask volumes: 3400; bid prices: 147800; bid volumes: 10000
+2023-03-12 20:36:10.660644 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 229; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:10.664013 [INFO   ] [AUTO] error with order 161: price is not a multiple of tick size
+2023-03-12 20:36:10.664918 [INFO   ] [AUTO] error with order 162: price is not a multiple of tick size
+2023-03-12 20:36:10.954629 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147900; ask volumes: 2400; bid prices: 147800; bid volumes: 4680
+2023-03-12 20:36:10.955483 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 229; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:10.962627 [INFO   ] [AUTO] error with order 163: price is not a multiple of tick size
+2023-03-12 20:36:10.963232 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147900; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:10.964138 [INFO   ] [AUTO] error with order 164: price is not a multiple of tick size
+2023-03-12 20:36:11.205415 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 430; bid prices: 147900; bid volumes: 12060
+2023-03-12 20:36:11.207385 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 229; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:11.209280 [INFO   ] [AUTO] error with order 165: price is not a multiple of tick size
+2023-03-12 20:36:11.209613 [INFO   ] [AUTO] error with order 166: price is not a multiple of tick size
+2023-03-12 20:36:11.379442 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 430; bid prices: 147900; bid volumes: 11060
+2023-03-12 20:36:11.379666 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 229; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:11.381743 [INFO   ] [AUTO] error with order 167: price is not a multiple of tick size
+2023-03-12 20:36:11.382971 [INFO   ] [AUTO] error with order 168: price is not a multiple of tick size
+2023-03-12 20:36:11.660987 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 430; bid prices: 147900; bid volumes: 11880
+2023-03-12 20:36:11.661435 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 229; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:11.661657 [INFO   ] [AUTO] error with order 169: price is not a multiple of tick size
+2023-03-12 20:36:11.662242 [INFO   ] [AUTO] error with order 170: price is not a multiple of tick size
+2023-03-12 20:36:11.864876 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 148000; ask volumes: 430; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:11.970050 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148100; ask volumes: 12000; bid prices: 147900; bid volumes: 12000
+2023-03-12 20:36:11.971185 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 325; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:11.973722 [INFO   ] [AUTO] order 172 filled for 46 lots at $147700 cents
+2023-03-12 20:36:11.974143 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:11.974281 [INFO   ] [AUTO] hedge order 173 filled for 46 lots at $147900 average price in cents
+2023-03-12 20:36:12.149925 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148100; ask volumes: 2000; bid prices: 148000; bid volumes: 2140
+2023-03-12 20:36:12.151732 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:12.152483 [INFO   ] [AUTO] error with order 174: price is not a multiple of tick size
+2023-03-12 20:36:12.152500 [INFO   ] [AUTO] error with order 175: price is not a multiple of tick size
+2023-03-12 20:36:12.212582 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 148100; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:12.375554 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 148100; bid volumes: 1000
+2023-03-12 20:36:12.432194 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148200; ask volumes: 10000; bid prices: 148000; bid volumes: 13810
+2023-03-12 20:36:12.432770 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 10036
+2023-03-12 20:36:12.438302 [INFO   ] [AUTO] error with order 176: price is not a multiple of tick size
+2023-03-12 20:36:12.441298 [INFO   ] [AUTO] error with order 177: price is not a multiple of tick size
+2023-03-12 20:36:12.606403 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 148200; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:12.684784 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 148100; bid volumes: 1120
+2023-03-12 20:36:12.686528 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148100; ask volumes: 1000; bid prices: 148000; bid volumes: 3480
+2023-03-12 20:36:12.687781 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 10036
+2023-03-12 20:36:12.691569 [INFO   ] [AUTO] error with order 178: price is not a multiple of tick size
+2023-03-12 20:36:12.692659 [INFO   ] [AUTO] error with order 179: price is not a multiple of tick size
+2023-03-12 20:36:12.822773 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 148000; bid volumes: 1480
+2023-03-12 20:36:12.959076 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 12000; bid prices: 147800; bid volumes: 1000
+2023-03-12 20:36:12.959320 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:12.960231 [INFO   ] [AUTO] error with order 180: price is not a multiple of tick size
+2023-03-12 20:36:12.960295 [INFO   ] [AUTO] error with order 181: price is not a multiple of tick size
+2023-03-12 20:36:13.178082 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 8000; bid prices: 147500; bid volumes: 7690
+2023-03-12 20:36:13.178304 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:13.179400 [INFO   ] [AUTO] error with order 182: price is not a multiple of tick size
+2023-03-12 20:36:13.180202 [INFO   ] [AUTO] error with order 183: price is not a multiple of tick size
+2023-03-12 20:36:13.307422 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147700; ask volumes: 5000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:13.400616 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 1010; bid prices: 147500; bid volumes: 12700
+2023-03-12 20:36:13.402132 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:13.403007 [INFO   ] [AUTO] error with order 184: price is not a multiple of tick size
+2023-03-12 20:36:13.403114 [INFO   ] [AUTO] error with order 185: price is not a multiple of tick size
+2023-03-12 20:36:13.555334 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147700; ask volumes: 1010; bid prices: 147700; bid volumes: 10
+2023-03-12 20:36:13.696157 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147900; ask volumes: 7000; bid prices: 147700; bid volumes: 1000
+2023-03-12 20:36:13.696634 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 36
+2023-03-12 20:36:13.697406 [INFO   ] [AUTO] error with order 186: price is not a multiple of tick size
+2023-03-12 20:36:13.697885 [INFO   ] [AUTO] error with order 187: price is not a multiple of tick size
+2023-03-12 20:36:13.798935 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147600; bid volumes: 31
+2023-03-12 20:36:13.955001 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 10000; bid prices: 147800; bid volumes: 1000
+2023-03-12 20:36:13.955207 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:13.955811 [INFO   ] [AUTO] error with order 188: price is not a multiple of tick size
+2023-03-12 20:36:13.956722 [INFO   ] [AUTO] error with order 189: price is not a multiple of tick size
+2023-03-12 20:36:14.173524 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 9000; bid prices: 147800; bid volumes: 4000
+2023-03-12 20:36:14.173748 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:14.181101 [INFO   ] [AUTO] error with order 190: price is not a multiple of tick size
+2023-03-12 20:36:14.181786 [INFO   ] [AUTO] error with order 191: price is not a multiple of tick size
+2023-03-12 20:36:14.458606 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148200; ask volumes: 13000; bid prices: 147900; bid volumes: 27730
+2023-03-12 20:36:14.458773 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:14.462574 [INFO   ] [AUTO] error with order 192: price is not a multiple of tick size
+2023-03-12 20:36:14.462917 [INFO   ] [AUTO] error with order 193: price is not a multiple of tick size
+2023-03-12 20:36:14.668258 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 148100; bid volumes: 2000
+2023-03-12 20:36:14.688994 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148300; ask volumes: 12000; bid prices: 148100; bid volumes: 1000
+2023-03-12 20:36:14.691717 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:14.691796 [INFO   ] [AUTO] error with order 194: price is not a multiple of tick size
+2023-03-12 20:36:14.692357 [INFO   ] [AUTO] error with order 195: price is not a multiple of tick size
+2023-03-12 20:36:14.936676 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148500; ask volumes: 13740; bid prices: 148200; bid volumes: 13000
+2023-03-12 20:36:14.938107 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 10005
+2023-03-12 20:36:14.939808 [INFO   ] [AUTO] error with order 196: price is not a multiple of tick size
+2023-03-12 20:36:14.939862 [INFO   ] [AUTO] error with order 197: price is not a multiple of tick size
+2023-03-12 20:36:15.057427 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 148200; bid volumes: 3440
+2023-03-12 20:36:15.151768 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148200; ask volumes: 8000; bid prices: 148000; bid volumes: 13740
+2023-03-12 20:36:15.151846 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 279; bid prices: 147600; bid volumes: 10005
+2023-03-12 20:36:15.162893 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 20; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:15.402911 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147900; ask volumes: 4000; bid prices: 148000; bid volumes: 1060
+2023-03-12 20:36:15.470448 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148100; ask volumes: 2010; bid prices: 147800; bid volumes: 6250
+2023-03-12 20:36:15.470598 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 259; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:15.478416 [INFO   ] [AUTO] error with order 198: price is not a multiple of tick size
+2023-03-12 20:36:15.479109 [INFO   ] [AUTO] error with order 199: price is not a multiple of tick size
+2023-03-12 20:36:15.511493 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 7; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:15.715492 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148100; ask volumes: 2010; bid prices: 147900; bid volumes: 3740
+2023-03-12 20:36:15.716283 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:15.716925 [INFO   ] [AUTO] error with order 200: price is not a multiple of tick size
+2023-03-12 20:36:15.716947 [INFO   ] [AUTO] error with order 201: price is not a multiple of tick size
+2023-03-12 20:36:15.935140 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 8400; bid prices: 147900; bid volumes: 1000
+2023-03-12 20:36:15.936253 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:15.938468 [INFO   ] [AUTO] error with order 202: price is not a multiple of tick size
+2023-03-12 20:36:15.940197 [INFO   ] [AUTO] error with order 203: price is not a multiple of tick size
+2023-03-12 20:36:16.192065 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 10400; bid prices: 147800; bid volumes: 3240
+2023-03-12 20:36:16.192369 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:16.208414 [INFO   ] [AUTO] error with order 204: price is not a multiple of tick size
+2023-03-12 20:36:16.222349 [INFO   ] [AUTO] error with order 205: price is not a multiple of tick size
+2023-03-12 20:36:16.223019 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147900; ask volumes: 400; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:16.364012 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147600; bid volumes: 5
+2023-03-12 20:36:16.421061 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148100; ask volumes: 12400; bid prices: 147900; bid volumes: 2110
+2023-03-12 20:36:16.422421 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147400; bid volumes: 10028
+2023-03-12 20:36:16.424695 [INFO   ] [AUTO] error with order 206: price is not a multiple of tick size
+2023-03-12 20:36:16.426201 [INFO   ] [AUTO] error with order 207: price is not a multiple of tick size
+2023-03-12 20:36:16.725223 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 9400; bid prices: 147900; bid volumes: 2110
+2023-03-12 20:36:16.725454 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147400; bid volumes: 10028
+2023-03-12 20:36:16.725944 [INFO   ] [AUTO] error with order 208: price is not a multiple of tick size
+2023-03-12 20:36:16.726376 [INFO   ] [AUTO] error with order 209: price is not a multiple of tick size
+2023-03-12 20:36:16.911724 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 9400; bid prices: 147900; bid volumes: 1000
+2023-03-12 20:36:16.912189 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147400; bid volumes: 10028
+2023-03-12 20:36:16.912228 [INFO   ] [AUTO] error with order 210: price is not a multiple of tick size
+2023-03-12 20:36:16.912440 [INFO   ] [AUTO] error with order 211: price is not a multiple of tick size
+2023-03-12 20:36:17.055730 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147400; bid volumes: 37
+2023-03-12 20:36:17.226933 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148200; ask volumes: 11110; bid prices: 148000; bid volumes: 1000
+2023-03-12 20:36:17.227770 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147400; bid volumes: 10000
+2023-03-12 20:36:17.229894 [INFO   ] [AUTO] error with order 212: price is not a multiple of tick size
+2023-03-12 20:36:17.232812 [INFO   ] [AUTO] error with order 213: price is not a multiple of tick size
+2023-03-12 20:36:17.418325 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148100; ask volumes: 12120; bid prices: 147900; bid volumes: 1000
+2023-03-12 20:36:17.418844 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147400; bid volumes: 10000
+2023-03-12 20:36:17.420673 [INFO   ] [AUTO] error with order 214: price is not a multiple of tick size
+2023-03-12 20:36:17.421240 [INFO   ] [AUTO] error with order 215: price is not a multiple of tick size
+2023-03-12 20:36:17.639869 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 148000; ask volumes: 9400; bid prices: 147800; bid volumes: 2490
+2023-03-12 20:36:17.640309 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 252; bid prices: 147400; bid volumes: 10000
+2023-03-12 20:36:17.641791 [INFO   ] [AUTO] error with order 216: price is not a multiple of tick size
+2023-03-12 20:36:17.641883 [INFO   ] [AUTO] error with order 217: price is not a multiple of tick size
+2023-03-12 20:36:17.655932 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147800; bid volumes: 1000
+2023-03-12 20:36:17.856467 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 51; bid prices: 147200; bid volumes: 11
+2023-03-12 20:36:17.857607 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147800; bid volumes: 1490
+2023-03-12 20:36:17.946450 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147800; ask volumes: 1000; bid prices: 147700; bid volumes: 13000
+2023-03-12 20:36:17.947945 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 201; bid prices: 147200; bid volumes: 9989
+2023-03-12 20:36:17.948060 [INFO   ] [AUTO] error with order 218: price is not a multiple of tick size
+2023-03-12 20:36:17.948116 [INFO   ] [AUTO] error with order 219: price is not a multiple of tick size
+2023-03-12 20:36:18.166321 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 9000; bid prices: 147500; bid volumes: 15000
+2023-03-12 20:36:18.167156 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 201; bid prices: 147100; bid volumes: 10000
+2023-03-12 20:36:18.167809 [INFO   ] [AUTO] error with order 220: price is not a multiple of tick size
+2023-03-12 20:36:18.167911 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 123; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:18.168018 [INFO   ] [AUTO] error with order 221: price is not a multiple of tick size
+2023-03-12 20:36:18.419801 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147800; ask volumes: 2400; bid prices: 147600; bid volumes: 7130
+2023-03-12 20:36:18.420621 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 78; bid prices: 147000; bid volumes: 10000
+2023-03-12 20:36:18.420791 [INFO   ] [AUTO] error with order 222: price is not a multiple of tick size
+2023-03-12 20:36:18.421204 [INFO   ] [AUTO] error with order 223: price is not a multiple of tick size
+2023-03-12 20:36:18.617631 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147600; bid volumes: 1000
+2023-03-12 20:36:18.708015 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147900; ask volumes: 14150; bid prices: 147600; bid volumes: 6130
+2023-03-12 20:36:18.708756 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 78; bid prices: 147000; bid volumes: 10000
+2023-03-12 20:36:18.711528 [INFO   ] [AUTO] error with order 224: price is not a multiple of tick size
+2023-03-12 20:36:18.711773 [INFO   ] [AUTO] error with order 225: price is not a multiple of tick size
+2023-03-12 20:36:18.951751 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147800; ask volumes: 9400; bid prices: 147600; bid volumes: 5130
+2023-03-12 20:36:18.952009 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 78; bid prices: 147100; bid volumes: 10000
+2023-03-12 20:36:18.952117 [INFO   ] [AUTO] error with order 226: price is not a multiple of tick size
+2023-03-12 20:36:18.952447 [INFO   ] [AUTO] error with order 227: price is not a multiple of tick size
+2023-03-12 20:36:19.181101 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147800; ask volumes: 10400; bid prices: 147600; bid volumes: 4130
+2023-03-12 20:36:19.181288 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 78; bid prices: 147100; bid volumes: 10000
+2023-03-12 20:36:19.181904 [INFO   ] [AUTO] error with order 228: price is not a multiple of tick size
+2023-03-12 20:36:19.182222 [INFO   ] [AUTO] error with order 229: price is not a multiple of tick size
+2023-03-12 20:36:19.425537 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147600; bid volumes: 130
+2023-03-12 20:36:19.443660 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 11400; bid prices: 147200; bid volumes: 8920
+2023-03-12 20:36:19.444080 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 78; bid prices: 147100; bid volumes: 10000
+2023-03-12 20:36:19.448845 [INFO   ] [AUTO] error with order 230: price is not a multiple of tick size
+2023-03-12 20:36:19.450598 [INFO   ] [AUTO] error with order 231: price is not a multiple of tick size
+2023-03-12 20:36:19.722368 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 9000; bid prices: 147200; bid volumes: 17160
+2023-03-12 20:36:19.722590 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 78; bid prices: 146700; bid volumes: 10000
+2023-03-12 20:36:19.723180 [INFO   ] [AUTO] error with order 232: price is not a multiple of tick size
+2023-03-12 20:36:19.723858 [INFO   ] [AUTO] error with order 233: price is not a multiple of tick size
+2023-03-12 20:36:19.803950 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 32; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:19.941390 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 8400; bid prices: 147200; bid volumes: 17160
+2023-03-12 20:36:19.941702 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 146700; bid volumes: 10000
+2023-03-12 20:36:19.948219 [INFO   ] [AUTO] error with order 234: price is not a multiple of tick size
+2023-03-12 20:36:19.950533 [INFO   ] [AUTO] error with order 235: price is not a multiple of tick size
+2023-03-12 20:36:20.175481 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 11400; bid prices: 147200; bid volumes: 3160
+2023-03-12 20:36:20.176006 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 43; bid prices: 146900; bid volumes: 90
+2023-03-12 20:36:20.176322 [INFO   ] [AUTO] error with order 236: price is not a multiple of tick size
+2023-03-12 20:36:20.176813 [INFO   ] [AUTO] error with order 237: price is not a multiple of tick size
+2023-03-12 20:36:20.434423 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 14400; bid prices: 147200; bid volumes: 15160
+2023-03-12 20:36:20.434690 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 43; bid prices: 146900; bid volumes: 90
+2023-03-12 20:36:20.435710 [INFO   ] [AUTO] error with order 238: price is not a multiple of tick size
+2023-03-12 20:36:20.436290 [INFO   ] [AUTO] error with order 239: price is not a multiple of tick size
+2023-03-12 20:36:20.603546 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147400; ask volumes: 2040; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:20.708227 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 2360; bid prices: 147300; bid volumes: 1500
+2023-03-12 20:36:20.708834 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 43; bid prices: 146900; bid volumes: 90
+2023-03-12 20:36:20.708953 [INFO   ] [AUTO] error with order 240: price is not a multiple of tick size
+2023-03-12 20:36:20.709992 [INFO   ] [AUTO] error with order 241: price is not a multiple of tick size
+2023-03-12 20:36:20.877812 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1960; bid prices: 147300; bid volumes: 14500
+2023-03-12 20:36:20.878252 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 43; bid prices: 146900; bid volumes: 90
+2023-03-12 20:36:20.884935 [INFO   ] [AUTO] error with order 242: price is not a multiple of tick size
+2023-03-12 20:36:20.885296 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147400; ask volumes: 1960; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:20.885747 [INFO   ] [AUTO] error with order 243: price is not a multiple of tick size
+2023-03-12 20:36:21.129959 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 8400; bid prices: 147500; bid volumes: 12000
+2023-03-12 20:36:21.130209 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147000; ask volumes: 43; bid prices: 146900; bid volumes: 10090
+2023-03-12 20:36:21.136609 [INFO   ] [AUTO] error with order 244: price is not a multiple of tick size
+2023-03-12 20:36:21.137091 [INFO   ] [AUTO] error with order 245: price is not a multiple of tick size
+2023-03-12 20:36:21.349907 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147000; ask volumes: 43; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:21.435244 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147800; ask volumes: 15400; bid prices: 147500; bid volumes: 12850
+2023-03-12 20:36:21.436971 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 147000; bid volumes: 9957
+2023-03-12 20:36:21.446683 [INFO   ] [AUTO] error with order 246: price is not a multiple of tick size
+2023-03-12 20:36:21.446709 [INFO   ] [AUTO] error with order 247: price is not a multiple of tick size
+2023-03-12 20:36:21.653087 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 8400; bid prices: 147600; bid volumes: 2000
+2023-03-12 20:36:21.653193 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 147000; bid volumes: 10000
+2023-03-12 20:36:21.809972 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147000; bid volumes: 14
+2023-03-12 20:36:21.875988 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147800; ask volumes: 10400; bid prices: 147600; bid volumes: 4000
+2023-03-12 20:36:21.876420 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 147000; bid volumes: 9986
+2023-03-12 20:36:21.877741 [INFO   ] [AUTO] error with order 248: price is not a multiple of tick size
+2023-03-12 20:36:21.878667 [INFO   ] [AUTO] error with order 249: price is not a multiple of tick size
+2023-03-12 20:36:22.184058 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 10400; bid prices: 147600; bid volumes: 2000
+2023-03-12 20:36:22.184340 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 147100; bid volumes: 10000
+2023-03-12 20:36:22.184637 [INFO   ] [AUTO] error with order 250: price is not a multiple of tick size
+2023-03-12 20:36:22.186382 [INFO   ] [AUTO] error with order 251: price is not a multiple of tick size
+2023-03-12 20:36:22.445171 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147800; ask volumes: 13400; bid prices: 147600; bid volumes: 2000
+2023-03-12 20:36:22.445744 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 147000; bid volumes: 10000
+2023-03-12 20:36:22.447277 [INFO   ] [AUTO] error with order 252: price is not a multiple of tick size
+2023-03-12 20:36:22.448384 [INFO   ] [AUTO] error with order 253: price is not a multiple of tick size
+2023-03-12 20:36:22.618169 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147600; bid volumes: 1670
+2023-03-12 20:36:22.649160 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 10400; bid prices: 147400; bid volumes: 4000
+2023-03-12 20:36:22.650512 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 147000; bid volumes: 10000
+2023-03-12 20:36:22.654823 [INFO   ] [AUTO] error with order 254: price is not a multiple of tick size
+2023-03-12 20:36:22.660646 [INFO   ] [AUTO] error with order 255: price is not a multiple of tick size
+2023-03-12 20:36:22.896496 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 10400; bid prices: 147200; bid volumes: 4160
+2023-03-12 20:36:22.899294 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 146900; bid volumes: 90
+2023-03-12 20:36:22.906477 [INFO   ] [AUTO] error with order 256: price is not a multiple of tick size
+2023-03-12 20:36:22.907880 [INFO   ] [AUTO] error with order 257: price is not a multiple of tick size
+2023-03-12 20:36:23.216849 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 2410; bid prices: 147200; bid volumes: 1160
+2023-03-12 20:36:23.217490 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 146900; bid volumes: 90
+2023-03-12 20:36:23.218707 [INFO   ] [AUTO] error with order 258: price is not a multiple of tick size
+2023-03-12 20:36:23.218731 [INFO   ] [AUTO] error with order 259: price is not a multiple of tick size
+2023-03-12 20:36:23.459901 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 11410; bid prices: 147200; bid volumes: 160
+2023-03-12 20:36:23.460329 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 146900; bid volumes: 90
+2023-03-12 20:36:23.460419 [INFO   ] [AUTO] error with order 260: price is not a multiple of tick size
+2023-03-12 20:36:23.460717 [INFO   ] [AUTO] error with order 261: price is not a multiple of tick size
+2023-03-12 20:36:23.552802 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 35
+2023-03-12 20:36:23.630590 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 10410; bid prices: 147200; bid volumes: 160
+2023-03-12 20:36:23.631343 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 46; bid prices: 146900; bid volumes: 55
+2023-03-12 20:36:23.632317 [INFO   ] [AUTO] error with order 262: price is not a multiple of tick size
+2023-03-12 20:36:23.632346 [INFO   ] [AUTO] error with order 263: price is not a multiple of tick size
+2023-03-12 20:36:23.893469 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 12410; bid prices: 147200; bid volumes: 160
+2023-03-12 20:36:23.895702 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 82; bid prices: 146900; bid volumes: 55
+2023-03-12 20:36:23.895757 [INFO   ] [AUTO] error with order 264: price is not a multiple of tick size
+2023-03-12 20:36:23.896363 [INFO   ] [AUTO] error with order 265: price is not a multiple of tick size
+2023-03-12 20:36:23.968492 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147200; bid volumes: 160
+2023-03-12 20:36:24.229924 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 15400; bid prices: 147100; bid volumes: 11850
+2023-03-12 20:36:24.238846 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 82; bid prices: 146900; bid volumes: 55
+2023-03-12 20:36:24.239855 [INFO   ] [AUTO] error with order 266: price is not a multiple of tick size
+2023-03-12 20:36:24.239874 [INFO   ] [AUTO] error with order 267: price is not a multiple of tick size
+2023-03-12 20:36:24.462835 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 15400; bid prices: 147100; bid volumes: 11850
+2023-03-12 20:36:24.463229 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 82; bid prices: 146900; bid volumes: 55
+2023-03-12 20:36:24.463259 [INFO   ] [AUTO] error with order 268: price is not a multiple of tick size
+2023-03-12 20:36:24.463647 [INFO   ] [AUTO] error with order 269: price is not a multiple of tick size
+2023-03-12 20:36:24.654994 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 146900; bid volumes: 8
+2023-03-12 20:36:24.704210 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 14400; bid prices: 147200; bid volumes: 3000
+2023-03-12 20:36:24.704489 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 82; bid prices: 146900; bid volumes: 47
+2023-03-12 20:36:24.707157 [INFO   ] [AUTO] error with order 270: price is not a multiple of tick size
+2023-03-12 20:36:24.707186 [INFO   ] [AUTO] error with order 271: price is not a multiple of tick size
+2023-03-12 20:36:24.877699 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 11400; bid prices: 147100; bid volumes: 1000
+2023-03-12 20:36:24.878002 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 82; bid prices: 146900; bid volumes: 47
+2023-03-12 20:36:24.878375 [INFO   ] [AUTO] error with order 272: price is not a multiple of tick size
+2023-03-12 20:36:24.878581 [INFO   ] [AUTO] error with order 273: price is not a multiple of tick size
+2023-03-12 20:36:25.005097 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147300; ask volumes: 900; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:25.252369 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1010; bid prices: 147200; bid volumes: 12000
+2023-03-12 20:36:25.257109 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147100; ask volumes: 82; bid prices: 146900; bid volumes: 47
+2023-03-12 20:36:25.288195 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147400; ask volumes: 1010; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:25.288323 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147100; ask volumes: 82; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:25.288412 [INFO   ] [AUTO] error with order 274: price is not a multiple of tick size
+2023-03-12 20:36:25.288475 [INFO   ] [AUTO] error with order 275: price is not a multiple of tick size
+2023-03-12 20:36:25.382803 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147400; ask volumes: 160; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:25.382912 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 12000; bid prices: 147100; bid volumes: 4870
+2023-03-12 20:36:25.383609 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:25.409783 [INFO   ] [AUTO] error with order 276: price is not a multiple of tick size
+2023-03-12 20:36:25.411421 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147200; bid volumes: 20
+2023-03-12 20:36:25.459965 [INFO   ] [AUTO] error with order 277: price is not a multiple of tick size
+2023-03-12 20:36:25.476135 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147000; ask volumes: 400; bid prices: 147000; bid volumes: 3870
+2023-03-12 20:36:25.630580 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1000; bid prices: 147200; bid volumes: 5860
+2023-03-12 20:36:25.631518 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:25.634650 [INFO   ] [AUTO] error with order 278: price is not a multiple of tick size
+2023-03-12 20:36:25.636238 [INFO   ] [AUTO] error with order 279: price is not a multiple of tick size
+2023-03-12 20:36:25.941816 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 12400; bid prices: 147200; bid volumes: 4000
+2023-03-12 20:36:25.946719 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:25.954561 [INFO   ] [AUTO] error with order 280: price is not a multiple of tick size
+2023-03-12 20:36:25.954780 [INFO   ] [AUTO] error with order 281: price is not a multiple of tick size
+2023-03-12 20:36:26.217415 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 1000; bid prices: 147100; bid volumes: 12860
+2023-03-12 20:36:26.218240 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:26.218275 [INFO   ] [AUTO] error with order 282: price is not a multiple of tick size
+2023-03-12 20:36:26.223344 [INFO   ] [AUTO] error with order 283: price is not a multiple of tick size
+2023-03-12 20:36:26.400546 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 12400; bid prices: 147000; bid volumes: 15880
+2023-03-12 20:36:26.400950 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:26.401836 [INFO   ] [AUTO] error with order 284: price is not a multiple of tick size
+2023-03-12 20:36:26.402961 [INFO   ] [AUTO] error with order 285: price is not a multiple of tick size
+2023-03-12 20:36:26.676117 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 11400; bid prices: 147100; bid volumes: 10000
+2023-03-12 20:36:26.676481 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:26.677580 [INFO   ] [AUTO] error with order 286: price is not a multiple of tick size
+2023-03-12 20:36:26.679119 [INFO   ] [AUTO] error with order 287: price is not a multiple of tick size
+2023-03-12 20:36:26.915617 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 13410; bid prices: 147000; bid volumes: 15880
+2023-03-12 20:36:26.915966 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:26.917941 [INFO   ] [AUTO] error with order 288: price is not a multiple of tick size
+2023-03-12 20:36:26.918404 [INFO   ] [AUTO] error with order 289: price is not a multiple of tick size
+2023-03-12 20:36:27.180862 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 10; bid prices: 147200; bid volumes: 2000
+2023-03-12 20:36:27.181523 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:27.272693 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147300; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:27.450050 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 2400; bid prices: 147300; bid volumes: 4000
+2023-03-12 20:36:27.451012 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147300; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:27.455569 [INFO   ] [AUTO] error with order 292: price is not a multiple of tick size
+2023-03-12 20:36:27.455654 [INFO   ] [AUTO] error with order 293: price is not a multiple of tick size
+2023-03-12 20:36:27.636749 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 1400; bid prices: 147400; bid volumes: 1000
+2023-03-12 20:36:27.637014 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:27.642579 [INFO   ] [AUTO] error with order 294: price is not a multiple of tick size
+2023-03-12 20:36:27.643056 [INFO   ] [AUTO] error with order 295: price is not a multiple of tick size
+2023-03-12 20:36:27.919381 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 1000; bid prices: 147400; bid volumes: 12000
+2023-03-12 20:36:27.919444 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:28.183139 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 1000; bid prices: 147400; bid volumes: 12000
+2023-03-12 20:36:28.184251 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:28.185081 [INFO   ] [AUTO] error with order 296: price is not a multiple of tick size
+2023-03-12 20:36:28.187968 [INFO   ] [AUTO] error with order 297: price is not a multiple of tick size
+2023-03-12 20:36:28.467679 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 10400; bid prices: 147400; bid volumes: 11000
+2023-03-12 20:36:28.469091 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:28.471747 [INFO   ] [AUTO] error with order 298: price is not a multiple of tick size
+2023-03-12 20:36:28.472776 [INFO   ] [AUTO] error with order 299: price is not a multiple of tick size
+2023-03-12 20:36:28.663634 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 11400; bid prices: 147500; bid volumes: 3000
+2023-03-12 20:36:28.663840 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:28.664280 [INFO   ] [AUTO] error with order 300: price is not a multiple of tick size
+2023-03-12 20:36:28.664729 [INFO   ] [AUTO] error with order 301: price is not a multiple of tick size
+2023-03-12 20:36:28.958890 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147200; bid volumes: 27
+2023-03-12 20:36:28.961186 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 9000; bid prices: 147500; bid volumes: 12000
+2023-03-12 20:36:28.961438 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147000; bid volumes: 9962
+2023-03-12 20:36:28.961978 [INFO   ] [AUTO] error with order 302: price is not a multiple of tick size
+2023-03-12 20:36:28.962466 [INFO   ] [AUTO] error with order 303: price is not a multiple of tick size
+2023-03-12 20:36:29.138098 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 10400; bid prices: 147500; bid volumes: 3000
+2023-03-12 20:36:29.142738 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147500; ask volumes: 69; bid prices: 147000; bid volumes: 9962
+2023-03-12 20:36:29.156582 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147500; ask volumes: 18; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:29.156686 [INFO   ] [AUTO] error with order 304: price is not a multiple of tick size
+2023-03-12 20:36:29.156697 [INFO   ] [AUTO] error with order 305: price is not a multiple of tick size
+2023-03-12 20:36:29.252183 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147500; ask volumes: 51; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:29.471421 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 10400; bid prices: 147300; bid volumes: 1000
+2023-03-12 20:36:29.472146 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 40; bid prices: 146900; bid volumes: 47
+2023-03-12 20:36:29.473108 [INFO   ] [AUTO] error with order 306: price is not a multiple of tick size
+2023-03-12 20:36:29.473135 [INFO   ] [AUTO] error with order 307: price is not a multiple of tick size
+2023-03-12 20:36:29.669683 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 1000; bid prices: 147300; bid volumes: 11000
+2023-03-12 20:36:29.670222 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 40; bid prices: 146900; bid volumes: 47
+2023-03-12 20:36:29.673120 [INFO   ] [AUTO] error with order 308: price is not a multiple of tick size
+2023-03-12 20:36:29.673146 [INFO   ] [AUTO] error with order 309: price is not a multiple of tick size
+2023-03-12 20:36:29.895433 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 1000; bid prices: 147300; bid volumes: 11870
+2023-03-12 20:36:29.895657 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 40; bid prices: 146900; bid volumes: 47
+2023-03-12 20:36:29.896676 [INFO   ] [AUTO] error with order 310: price is not a multiple of tick size
+2023-03-12 20:36:29.896894 [INFO   ] [AUTO] error with order 311: price is not a multiple of tick size
+2023-03-12 20:36:30.144128 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 4400; bid prices: 147300; bid volumes: 3000
+2023-03-12 20:36:30.144344 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147400; ask volumes: 40; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:30.144456 [INFO   ] [AUTO] error with order 312: price is not a multiple of tick size
+2023-03-12 20:36:30.145190 [INFO   ] [AUTO] error with order 313: price is not a multiple of tick size
+2023-03-12 20:36:30.313097 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147400; ask volumes: 40; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:30.313170 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147300; bid volumes: 1030
+2023-03-12 20:36:30.416292 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 10000; bid prices: 147200; bid volumes: 12000
+2023-03-12 20:36:30.416738 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 150; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:30.416805 [INFO   ] [AUTO] error with order 314: price is not a multiple of tick size
+2023-03-12 20:36:30.417014 [INFO   ] [AUTO] error with order 315: price is not a multiple of tick size
+2023-03-12 20:36:30.632240 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 10000; bid prices: 147200; bid volumes: 12000
+2023-03-12 20:36:30.632964 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 150; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:30.633012 [INFO   ] [AUTO] error with order 316: price is not a multiple of tick size
+2023-03-12 20:36:30.633414 [INFO   ] [AUTO] error with order 317: price is not a multiple of tick size
+2023-03-12 20:36:30.958113 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 13400; bid prices: 147100; bid volumes: 13870
+2023-03-12 20:36:30.959693 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 150; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:30.964895 [INFO   ] [AUTO] error with order 318: price is not a multiple of tick size
+2023-03-12 20:36:30.965365 [INFO   ] [AUTO] error with order 319: price is not a multiple of tick size
+2023-03-12 20:36:31.156207 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 12400; bid prices: 147100; bid volumes: 22870
+2023-03-12 20:36:31.156872 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 150; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:31.156919 [INFO   ] [AUTO] error with order 320: price is not a multiple of tick size
+2023-03-12 20:36:31.157188 [INFO   ] [AUTO] error with order 321: price is not a multiple of tick size
+2023-03-12 20:36:31.447416 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 6000; bid prices: 147200; bid volumes: 10000
+2023-03-12 20:36:31.448938 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 150; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:31.450698 [INFO   ] [AUTO] error with order 322: price is not a multiple of tick size
+2023-03-12 20:36:31.451041 [INFO   ] [AUTO] error with order 323: price is not a multiple of tick size
+2023-03-12 20:36:31.707914 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 3000; bid prices: 147200; bid volumes: 19870
+2023-03-12 20:36:31.708351 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 150; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:31.712274 [INFO   ] [AUTO] error with order 324: price is not a multiple of tick size
+2023-03-12 20:36:31.715776 [INFO   ] [AUTO] error with order 325: price is not a multiple of tick size
+2023-03-12 20:36:31.909693 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 147200; bid volumes: 2000
+2023-03-12 20:36:31.948698 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 11400; bid prices: 147200; bid volumes: 3000
+2023-03-12 20:36:31.948996 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 150; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:32.017519 [INFO   ] [AUTO] error with order 326: price is not a multiple of tick size
+2023-03-12 20:36:32.076489 [INFO   ] [AUTO] error with order 327: price is not a multiple of tick size
+2023-03-12 20:36:32.081234 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 8; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:32.155221 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 13400; bid prices: 147100; bid volumes: 13890
+2023-03-12 20:36:32.155837 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:32.156768 [INFO   ] [AUTO] error with order 328: price is not a multiple of tick size
+2023-03-12 20:36:32.157488 [INFO   ] [AUTO] error with order 329: price is not a multiple of tick size
+2023-03-12 20:36:32.473682 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 12400; bid prices: 147200; bid volumes: 2000
+2023-03-12 20:36:32.473852 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:32.480568 [INFO   ] [AUTO] error with order 330: price is not a multiple of tick size
+2023-03-12 20:36:32.482012 [INFO   ] [AUTO] error with order 331: price is not a multiple of tick size
+2023-03-12 20:36:32.705504 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 3000; bid prices: 147400; bid volumes: 12000
+2023-03-12 20:36:32.706036 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:32.706543 [INFO   ] [AUTO] error with order 332: price is not a multiple of tick size
+2023-03-12 20:36:32.707190 [INFO   ] [AUTO] error with order 333: price is not a multiple of tick size
+2023-03-12 20:36:32.918677 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 12400; bid prices: 147300; bid volumes: 10
+2023-03-12 20:36:32.918935 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:32.920620 [INFO   ] [AUTO] error with order 334: price is not a multiple of tick size
+2023-03-12 20:36:32.921290 [INFO   ] [AUTO] error with order 335: price is not a multiple of tick size
+2023-03-12 20:36:33.175064 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 10400; bid prices: 147300; bid volumes: 10
+2023-03-12 20:36:33.175243 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:33.179239 [INFO   ] [AUTO] error with order 336: price is not a multiple of tick size
+2023-03-12 20:36:33.179365 [INFO   ] [AUTO] error with order 337: price is not a multiple of tick size
+2023-03-12 20:36:33.395908 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 13400; bid prices: 147200; bid volumes: 3000
+2023-03-12 20:36:33.396419 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:33.397714 [INFO   ] [AUTO] error with order 338: price is not a multiple of tick size
+2023-03-12 20:36:33.398111 [INFO   ] [AUTO] error with order 339: price is not a multiple of tick size
+2023-03-12 20:36:33.563012 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147400; ask volumes: 8000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:33.657919 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 14890; bid prices: 147400; bid volumes: 14000
+2023-03-12 20:36:33.658560 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:33.667583 [INFO   ] [AUTO] error with order 340: price is not a multiple of tick size
+2023-03-12 20:36:33.668034 [INFO   ] [AUTO] error with order 341: price is not a multiple of tick size
+2023-03-12 20:36:33.928409 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 1000; bid prices: 147400; bid volumes: 14000
+2023-03-12 20:36:33.929543 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:33.933407 [INFO   ] [AUTO] error with order 342: price is not a multiple of tick size
+2023-03-12 20:36:33.934100 [INFO   ] [AUTO] error with order 343: price is not a multiple of tick size
+2023-03-12 20:36:34.166252 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 1000; bid prices: 147400; bid volumes: 14000
+2023-03-12 20:36:34.170981 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:34.172964 [INFO   ] [AUTO] error with order 344: price is not a multiple of tick size
+2023-03-12 20:36:34.173474 [INFO   ] [AUTO] error with order 345: price is not a multiple of tick size
+2023-03-12 20:36:34.424270 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 3000; bid prices: 147400; bid volumes: 13000
+2023-03-12 20:36:34.424338 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147100; bid volumes: 18
+2023-03-12 20:36:34.654075 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 1000; bid prices: 147400; bid volumes: 13900
+2023-03-12 20:36:34.654882 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 142; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:34.655340 [INFO   ] [AUTO] error with order 346: price is not a multiple of tick size
+2023-03-12 20:36:34.655399 [INFO   ] [AUTO] error with order 347: price is not a multiple of tick size
+2023-03-12 20:36:34.859811 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 78; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:34.883175 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 2000; bid prices: 147400; bid volumes: 21900
+2023-03-12 20:36:34.883434 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:34.885296 [INFO   ] [AUTO] error with order 348: price is not a multiple of tick size
+2023-03-12 20:36:34.885701 [INFO   ] [AUTO] error with order 349: price is not a multiple of tick size
+2023-03-12 20:36:35.122542 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147500; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:35.140454 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147700; ask volumes: 12000; bid prices: 147500; bid volumes: 12000
+2023-03-12 20:36:35.141910 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:35.435960 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 1000; bid prices: 147100; bid volumes: 5870
+2023-03-12 20:36:35.436274 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 133; bid prices: 147500; bid volumes: 23
+2023-03-12 20:36:35.442619 [INFO   ] [AUTO] error with order 352: price is not a multiple of tick size
+2023-03-12 20:36:35.443063 [INFO   ] [AUTO] error with order 353: price is not a multiple of tick size
+2023-03-12 20:36:35.640668 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1000; bid prices: 147200; bid volumes: 4860
+2023-03-12 20:36:35.641194 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:35.643807 [INFO   ] [AUTO] error with order 354: price is not a multiple of tick size
+2023-03-12 20:36:35.644307 [INFO   ] [AUTO] error with order 355: price is not a multiple of tick size
+2023-03-12 20:36:35.887751 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 10400; bid prices: 147200; bid volumes: 2860
+2023-03-12 20:36:35.888540 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:35.889359 [INFO   ] [AUTO] error with order 356: price is not a multiple of tick size
+2023-03-12 20:36:35.889779 [INFO   ] [AUTO] error with order 357: price is not a multiple of tick size
+2023-03-12 20:36:36.186500 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 15000; bid prices: 147300; bid volumes: 1000
+2023-03-12 20:36:36.186758 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:36.188968 [INFO   ] [AUTO] error with order 358: price is not a multiple of tick size
+2023-03-12 20:36:36.191171 [INFO   ] [AUTO] error with order 359: price is not a multiple of tick size
+2023-03-12 20:36:36.394031 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1400; bid prices: 147200; bid volumes: 12860
+2023-03-12 20:36:36.394592 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:36.398985 [INFO   ] [AUTO] error with order 360: price is not a multiple of tick size
+2023-03-12 20:36:36.399673 [INFO   ] [AUTO] error with order 361: price is not a multiple of tick size
+2023-03-12 20:36:36.677269 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 2400; bid prices: 147000; bid volumes: 14930
+2023-03-12 20:36:36.678287 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:36.678787 [INFO   ] [AUTO] error with order 362: price is not a multiple of tick size
+2023-03-12 20:36:36.679418 [INFO   ] [AUTO] error with order 363: price is not a multiple of tick size
+2023-03-12 20:36:36.950224 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 2000; bid prices: 147100; bid volumes: 19860
+2023-03-12 20:36:36.951549 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:36.952800 [INFO   ] [AUTO] error with order 364: price is not a multiple of tick size
+2023-03-12 20:36:36.952871 [INFO   ] [AUTO] error with order 365: price is not a multiple of tick size
+2023-03-12 20:36:37.150666 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 1000; bid prices: 147100; bid volumes: 20850
+2023-03-12 20:36:37.150820 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:37.151327 [INFO   ] [AUTO] error with order 366: price is not a multiple of tick size
+2023-03-12 20:36:37.151439 [INFO   ] [AUTO] error with order 367: price is not a multiple of tick size
+2023-03-12 20:36:37.430717 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1000; bid prices: 147200; bid volumes: 13840
+2023-03-12 20:36:37.430909 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 64; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:37.431387 [INFO   ] [AUTO] error with order 368: price is not a multiple of tick size
+2023-03-12 20:36:37.431869 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 51; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:37.431968 [INFO   ] [AUTO] error with order 369: price is not a multiple of tick size
+2023-03-12 20:36:37.681218 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1000; bid prices: 147200; bid volumes: 12000
+2023-03-12 20:36:37.681754 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:37.682052 [INFO   ] [AUTO] error with order 370: price is not a multiple of tick size
+2023-03-12 20:36:37.682678 [INFO   ] [AUTO] error with order 371: price is not a multiple of tick size
+2023-03-12 20:36:37.905093 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 10400; bid prices: 147100; bid volumes: 11000
+2023-03-12 20:36:37.905327 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 18
+2023-03-12 20:36:37.905652 [INFO   ] [AUTO] error with order 372: price is not a multiple of tick size
+2023-03-12 20:36:37.905885 [INFO   ] [AUTO] error with order 373: price is not a multiple of tick size
+2023-03-12 20:36:38.170616 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 147400; bid volumes: 11
+2023-03-12 20:36:38.214377 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 12400; bid prices: 147000; bid volumes: 14890
+2023-03-12 20:36:38.214765 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:38.214953 [INFO   ] [AUTO] error with order 374: price is not a multiple of tick size
+2023-03-12 20:36:38.215173 [INFO   ] [AUTO] error with order 375: price is not a multiple of tick size
+2023-03-12 20:36:38.402870 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 3000; bid prices: 147100; bid volumes: 8000
+2023-03-12 20:36:38.403027 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:38.403192 [INFO   ] [AUTO] error with order 376: price is not a multiple of tick size
+2023-03-12 20:36:38.403484 [INFO   ] [AUTO] error with order 377: price is not a multiple of tick size
+2023-03-12 20:36:38.717567 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 1000; bid prices: 147100; bid volumes: 17860
+2023-03-12 20:36:38.717964 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:38.718225 [INFO   ] [AUTO] error with order 378: price is not a multiple of tick size
+2023-03-12 20:36:38.718542 [INFO   ] [AUTO] error with order 379: price is not a multiple of tick size
+2023-03-12 20:36:38.981179 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 1000; bid prices: 147300; bid volumes: 3000
+2023-03-12 20:36:38.981364 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:38.982718 [INFO   ] [AUTO] error with order 380: price is not a multiple of tick size
+2023-03-12 20:36:38.984643 [INFO   ] [AUTO] error with order 381: price is not a multiple of tick size
+2023-03-12 20:36:39.160173 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 1000; bid prices: 147400; bid volumes: 11000
+2023-03-12 20:36:39.160742 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:39.160787 [INFO   ] [AUTO] error with order 382: price is not a multiple of tick size
+2023-03-12 20:36:39.161157 [INFO   ] [AUTO] error with order 383: price is not a multiple of tick size
+2023-03-12 20:36:39.458573 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 2000; bid prices: 147300; bid volumes: 12840
+2023-03-12 20:36:39.458697 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:39.458924 [INFO   ] [AUTO] error with order 384: price is not a multiple of tick size
+2023-03-12 20:36:39.459281 [INFO   ] [AUTO] error with order 385: price is not a multiple of tick size
+2023-03-12 20:36:39.650179 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 10400; bid prices: 147300; bid volumes: 1000
+2023-03-12 20:36:39.650408 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:39.651185 [INFO   ] [AUTO] error with order 386: price is not a multiple of tick size
+2023-03-12 20:36:39.651699 [INFO   ] [AUTO] error with order 387: price is not a multiple of tick size
+2023-03-12 20:36:39.928838 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 2000; bid prices: 147300; bid volumes: 1000
+2023-03-12 20:36:39.929326 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:39.931472 [INFO   ] [AUTO] error with order 388: price is not a multiple of tick size
+2023-03-12 20:36:39.931837 [INFO   ] [AUTO] error with order 389: price is not a multiple of tick size
+2023-03-12 20:36:40.049233 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147500; ask volumes: 1360; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:40.195617 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 14400; bid prices: 147300; bid volumes: 10840
+2023-03-12 20:36:40.195929 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:40.197015 [INFO   ] [AUTO] error with order 390: price is not a multiple of tick size
+2023-03-12 20:36:40.197037 [INFO   ] [AUTO] error with order 391: price is not a multiple of tick size
+2023-03-12 20:36:40.257775 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147700; ask volumes: 13; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:40.402962 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 10000; bid prices: 147200; bid volumes: 12860
+2023-03-12 20:36:40.403536 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 14; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:40.403580 [INFO   ] [AUTO] error with order 392: price is not a multiple of tick size
+2023-03-12 20:36:40.403762 [INFO   ] [AUTO] error with order 393: price is not a multiple of tick size
+2023-03-12 20:36:40.681169 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 1000; bid prices: 147200; bid volumes: 13860
+2023-03-12 20:36:40.681231 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 10014; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:40.940761 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 2000; bid prices: 147200; bid volumes: 1000
+2023-03-12 20:36:40.941483 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 10014; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:40.944603 [INFO   ] [AUTO] error with order 394: price is not a multiple of tick size
+2023-03-12 20:36:40.944656 [INFO   ] [AUTO] error with order 395: price is not a multiple of tick size
+2023-03-12 20:36:41.164444 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 1000; bid prices: 147100; bid volumes: 18860
+2023-03-12 20:36:41.164674 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147800; ask volumes: 10000; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:41.165505 [INFO   ] [AUTO] error with order 396: price is not a multiple of tick size
+2023-03-12 20:36:41.165529 [INFO   ] [AUTO] error with order 397: price is not a multiple of tick size
+2023-03-12 20:36:41.465963 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 500; bid prices: 147100; bid volumes: 10860
+2023-03-12 20:36:41.466452 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 10014; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:41.466766 [INFO   ] [AUTO] error with order 398: price is not a multiple of tick size
+2023-03-12 20:36:41.467309 [INFO   ] [AUTO] error with order 399: price is not a multiple of tick size
+2023-03-12 20:36:41.719249 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147300; ask volumes: 500; bid prices: 147200; bid volumes: 20000
+2023-03-12 20:36:41.719424 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 10014; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:41.721032 [INFO   ] [AUTO] error with order 400: price is not a multiple of tick size
+2023-03-12 20:36:41.721361 [INFO   ] [AUTO] error with order 401: price is not a multiple of tick size
+2023-03-12 20:36:41.815440 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147300; ask volumes: 500; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:41.950580 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 14400; bid prices: 147200; bid volumes: 12820
+2023-03-12 20:36:41.950773 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147800; ask volumes: 10000; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:41.953226 [INFO   ] [AUTO] error with order 402: price is not a multiple of tick size
+2023-03-12 20:36:41.953530 [INFO   ] [AUTO] error with order 403: price is not a multiple of tick size
+2023-03-12 20:36:42.220840 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147500; ask volumes: 14000; bid prices: 147200; bid volumes: 12820
+2023-03-12 20:36:42.221473 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 14; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:42.221750 [INFO   ] [AUTO] error with order 404: price is not a multiple of tick size
+2023-03-12 20:36:42.222158 [INFO   ] [AUTO] error with order 405: price is not a multiple of tick size
+2023-03-12 20:36:42.438477 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 13400; bid prices: 147100; bid volumes: 10860
+2023-03-12 20:36:42.440020 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 10014; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:42.440877 [INFO   ] [AUTO] error with order 406: price is not a multiple of tick size
+2023-03-12 20:36:42.441229 [INFO   ] [AUTO] error with order 407: price is not a multiple of tick size
+2023-03-12 20:36:42.656702 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 4000; bid prices: 147200; bid volumes: 20000
+2023-03-12 20:36:42.657300 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147800; ask volumes: 10000; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:42.657976 [INFO   ] [AUTO] error with order 408: price is not a multiple of tick size
+2023-03-12 20:36:42.657990 [INFO   ] [AUTO] error with order 409: price is not a multiple of tick size
+2023-03-12 20:36:42.877720 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 12000; bid prices: 147200; bid volumes: 10000
+2023-03-12 20:36:42.878093 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147800; ask volumes: 10000; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:42.882285 [INFO   ] [AUTO] error with order 410: price is not a multiple of tick size
+2023-03-12 20:36:42.882313 [INFO   ] [AUTO] error with order 411: price is not a multiple of tick size
+2023-03-12 20:36:43.191532 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 14400; bid prices: 147100; bid volumes: 9840
+2023-03-12 20:36:43.201101 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147800; ask volumes: 10000; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:43.204136 [INFO   ] [AUTO] error with order 412: price is not a multiple of tick size
+2023-03-12 20:36:43.204154 [INFO   ] [AUTO] error with order 413: price is not a multiple of tick size
+2023-03-12 20:36:43.463546 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 14000; bid prices: 147100; bid volumes: 25870
+2023-03-12 20:36:43.464265 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147800; ask volumes: 10000; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:43.464920 [INFO   ] [AUTO] error with order 414: price is not a multiple of tick size
+2023-03-12 20:36:43.465100 [INFO   ] [AUTO] error with order 415: price is not a multiple of tick size
+2023-03-12 20:36:43.634882 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147400; ask volumes: 12400; bid prices: 147200; bid volumes: 12000
+2023-03-12 20:36:43.635908 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 10062; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:43.655080 [INFO   ] [AUTO] error with order 416: price is not a multiple of tick size
+2023-03-12 20:36:43.655122 [INFO   ] [AUTO] error with order 417: price is not a multiple of tick size
+2023-03-12 20:36:43.905606 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 147900; ask volumes: 25; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:43.936603 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147600; ask volumes: 12000; bid prices: 147400; bid volumes: 10000
+2023-03-12 20:36:43.936851 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147900; ask volumes: 37; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:43.937251 [INFO   ] [AUTO] error with order 418: price is not a multiple of tick size
+2023-03-12 20:36:43.937555 [INFO   ] [AUTO] error with order 419: price is not a multiple of tick size
+2023-03-12 20:36:44.161718 [INFO   ] [AUTO] order book received for Future instrument: ask prices: 147200; ask volumes: 1000; bid prices: 147100; bid volumes: 17870
+2023-03-12 20:36:44.162054 [INFO   ] [AUTO] order book received for ETF instrument: ask prices: 147800; ask volumes: 10000; bid prices: 147400; bid volumes: 7
+2023-03-12 20:36:44.165040 [INFO   ] [AUTO] error with order 420: price is not a multiple of tick size
+2023-03-12 20:36:44.177050 [INFO   ] [AUTO] error with order 421: price is not a multiple of tick size
+2023-03-12 20:36:44.177416 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 147200; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-12 20:36:44.411373 [INFO   ] [CON] 'Exec' remote disconnect
+2023-03-12 20:36:44.411402 [INFO   ] [AUTO] execution connection lost
+2023-03-12 20:36:44.411460 [INFO   ] [CON] 'Info' closing
+2023-03-12 20:36:44.411497 [INFO   ] [CON] 'Exec' closing
