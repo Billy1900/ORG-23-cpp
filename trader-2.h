@@ -102,7 +102,7 @@ public:
     void PositionChangeMessageHandler(int futurePosition, int etfPosition);
     
     // Return bid and ask quote maps
-    std::pair<std::map<int, int>, std::map<int, int>> QuoteMaps(unsigned int riskFactor);
+    std::pair<std::map<int, int>, std::map<int, int>> QuoteMaps(float riskFactor);
 
 private:
     unsigned long mNextMessageId = 1;
@@ -120,7 +120,7 @@ private:
     const double l3_w = 0.1;
     const double l4_w = 0.05;
 
-    unsigned int risk_factor = 4;
+    float risk_factor = 2.5;
     std::map<int, int> bid_vol_map;
     std::map<int, int> ask_vol_map;
 

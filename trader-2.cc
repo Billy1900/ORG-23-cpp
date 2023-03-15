@@ -85,8 +85,17 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
         //                             askPrices[0]*askVolumes[0]*l0_w + askPrices[1]*askVolumes[1]*l1_w + askPrices[2]*askVolumes[2]*l2_w + askPrices[3]*askVolumes[3]*l3_w + askPrices[4]*askVolumes[4]*l4_w) /
         //                             (bidVolumes[0]*l0_w + bidVolumes[1]*l1_w + bidVolumes[2]*l2_w + bidVolumes[3]*l3_w + bidVolumes[4]*l4_w + 
         //                             askVolumes[0]*l0_w + askVolumes[1]*l1_w + askVolumes[2]*l2_w + askVolumes[3]*l3_w + askVolumes[4]*l4_w);
-        unsigned long theo_price = (bidPrices[0]*bidVolumes[0] + askPrices[0]*askVolumes[0]) / (bidVolumes[0] + askVolumes[0]);
+        // unsigned long theo_price = (bidPrices[0]*bidVolumes[0] + askPrices[0]*askVolumes[0]) / (bidVolumes[0] + askVolumes[0]);
         
+        unsigned long theo_price = 0;
+        if (bidVolumes[0] >= 500){
+            theo_price = (bidPrices[0]*bidVolumes[0] + askPrices[0]*askVolumes[0]) / (bidVolumes[0] + askVolumes[0]);
+        }else if (bidVolumes[0] + bidVolumes[1] >= 500){
+            theo_price = (bidPrices[0]*bidVolumes[0] + bidPrices[1]*bidVolumes[1] + askPrices[0]*askVolumes[0] + askPrices[1]*askVolumes[1]) / (bidVolumes[0] + askVolumes[0] +  bidVolumes[1] + askVolumes[1]);
+        }else{
+            theo_price = (bidPrices[0]*bidVolumes[0] + bidPrices[1]*bidVolumes[1] + bidPrices[2]*bidVolumes[2] + askPrices[0]*askVolumes[0] + askPrices[1]*askVolumes[1] + askPrices[2]*askVolumes[2]) / (bidVolumes[0] + askVolumes[0] +  bidVolumes[1] + askVolumes[1] + bidVolumes[2] + askVolumes[2]);
+        }
+
         unsigned long newBidPrice = (bidPrices[0] != 0) ? theo_price - 100 : 0;
         unsigned long newAskPrice = (askPrices[0] != 0) ? theo_price + 100 : 0;
 
@@ -203,7 +212,7 @@ void AutoTrader::TradeTicksMessageHandler(Instrument instrument,
 //     mAskVolume = ask_vol_map[mPosition];
 // }
 
-std::pair<std::map<int, int>, std::map<int, int>> AutoTrader::QuoteMaps(unsigned int riskFactor){
+std::pair<std::map<int, int>, std::map<int, int>> AutoTrader::QuoteMaps(float riskFactor){
     std::map<int, int> bid_vol_map;
     std::map<int, int> ask_vol_map;
 
