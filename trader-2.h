@@ -114,13 +114,7 @@ private:
     unsigned long mBidVolume = 0;
     signed long mPosition = 0;
 
-    const double l0_w = 0.375;
-    const double l1_w = 0.275;
-    const double l2_w = 0.15;
-    const double l3_w = 0.1;
-    const double l4_w = 0.05;
-
-    float risk_factor = 2.5;
+    float risk_factor = 4.0;
     std::map<int, int> bid_vol_map;
     std::map<int, int> ask_vol_map;
 

@@ -77,79 +77,104 @@ void AutoTrader::OrderBookMessageHandler(Instrument instrument,
 
     if (instrument == Instrument::FUTURE)
     {
-        if (action_cnt == 0){
-            begin_time = std::time(nullptr);
-        }
-
-        // unsigned long theo_price = (bidPrices[0]*bidVolumes[0]*l0_w + bidPrices[1]*bidVolumes[1]*l1_w + bidPrices[2]*bidVolumes[2]*l2_w + bidPrices[3]*bidVolumes[3]*l3_w + bidPrices[4]*bidVolumes[4]*l4_w +
-        //                             askPrices[0]*askVolumes[0]*l0_w + askPrices[1]*askVolumes[1]*l1_w + askPrices[2]*askVolumes[2]*l2_w + askPrices[3]*askVolumes[3]*l3_w + askPrices[4]*askVolumes[4]*l4_w) /
-        //                             (bidVolumes[0]*l0_w + bidVolumes[1]*l1_w + bidVolumes[2]*l2_w + bidVolumes[3]*l3_w + bidVolumes[4]*l4_w + 
-        //                             askVolumes[0]*l0_w + askVolumes[1]*l1_w + askVolumes[2]*l2_w + askVolumes[3]*l3_w + askVolumes[4]*l4_w);
-        // unsigned long theo_price = (bidPrices[0]*bidVolumes[0] + askPrices[0]*askVolumes[0]) / (bidVolumes[0] + askVolumes[0]);
-        
+        std::cout<<"Future instrument\n"; 
         unsigned long theo_price = 0;
+        
         if (bidVolumes[0] >= 500){
-            theo_price = (bidPrices[0]*bidVolumes[0] + askPrices[0]*askVolumes[0]) / (bidVolumes[0] + askVolumes[0]);
+            theo_price = (bidPrices[0]*bidVolumes[0] + askPrices[0]*askVolumes[0]) / (bidVolumes[0] + askVolumes[0]);      
         }else if (bidVolumes[0] + bidVolumes[1] >= 500){
-            theo_price = (bidPrices[0]*bidVolumes[0] + bidPrices[1]*bidVolumes[1] + askPrices[0]*askVolumes[0] + askPrices[1]*askVolumes[1]) / (bidVolumes[0] + askVolumes[0] +  bidVolumes[1] + askVolumes[1]);
+            theo_price = (bidPrices[0]*bidVolumes[0] + bidPrices[1]*bidVolumes[1] + askPrices[0]*askVolumes[0] + askPrices[1]*askVolumes[1]) / (bidVolumes[0] + askVolumes[0] +  bidVolumes[1] + askVolumes[1]);         
         }else{
             theo_price = (bidPrices[0]*bidVolumes[0] + bidPrices[1]*bidVolumes[1] + bidPrices[2]*bidVolumes[2] + askPrices[0]*askVolumes[0] + askPrices[1]*askVolumes[1] + askPrices[2]*askVolumes[2]) / (bidVolumes[0] + askVolumes[0] +  bidVolumes[1] + askVolumes[1] + bidVolumes[2] + askVolumes[2]);
         }
-
+        
         unsigned long newBidPrice = (bidPrices[0] != 0) ? theo_price - 100 : 0;
+        newBidPrice = newBidPrice/100 * 100;
         unsigned long newAskPrice = (askPrices[0] != 0) ? theo_price + 100 : 0;
+        newAskPrice = newAskPrice/100 * 100;
 
-        if (action_cnt <= 48){// action limit is 50
+        // If the new quoted price differs from the existing quoted price, cancel the old order.
+        if (mAskId != 0 && newAskPrice != 0 && (newAskPrice < mAskPrice-100 || newAskPrice > mAskPrice+100)){
+            SendCancelOrder(mAskId);
+            std::cout<<"send FT [cancel ask order], newAskPrice is "<<newAskPrice<<" our ask price is "<<mAskPrice<<std::endl;
+            mAskId = 0;
+        }
+        if (mBidId != 0 && newBidPrice != 0 && (newBidPrice < mBidPrice-100 || newBidPrice > mBidPrice+100)){
+            SendCancelOrder(mBidId);
+            std::cout<<"send FT [cancel bid order], newBidPrice is "<<newBidPrice<<" our ask price is "<<mBidPrice<<std::endl;
+            mBidId = 0;
+        }
+
+        mAskVolume = ask_vol_map[mPosition];
+        mBidVolume = bid_vol_map[mPosition];
+        // Determine bid volume according to current position.
+        if (mAskId == 0 && newAskPrice != 0 && mPosition > -POSITION_LIMIT && mAskVolume != 0){
+            mAskId = mNextMessageId++;
+            mAskPrice = newAskPrice;
+            std::cout<<"[FT Ask] mPosition is "<<mPosition<<" mAskVolume is "<<mAskVolume<<std::endl;
+            std::cout<<"send FT insert [SELL] order, our ask price is "<<mAskPrice<<std::endl;
+            SendInsertOrder(mAskId, Side::SELL, newAskPrice, mAskVolume, Lifespan::GOOD_FOR_DAY); // dynamic mAskVolume will consider market impact or minimize risk
+            mAsks.emplace(mAskId);
+        }
+        if (mBidId == 0 && newBidPrice != 0 && mPosition < POSITION_LIMIT && mBidVolume != 0){
+            mBidId = mNextMessageId++;
+            mBidPrice = newBidPrice;
+            std::cout<<"[FT BID] mPosition is "<<mPosition<<" mAskVolume is "<<mBidPrice<<std::endl;
+            std::cout<<"send FT insert [BUY] order, our bid price is "<<mBidPrice<<std::endl;
+            SendInsertOrder(mBidId, Side::BUY, newBidPrice, mBidVolume, Lifespan::GOOD_FOR_DAY);
+            mBids.emplace(mBidId);
+        }
+    }
+    /*
+    else if (instrument == Instrument::ETF){
+        std::cout<<"ETF instrument\n"; 
+        if (bidVolumes[0] != 0){
+            unsigned long theo_price = 0;
+            if (bidVolumes[0] >= 50){
+                theo_price = (bidPrices[0]*bidVolumes[0] + askPrices[0]*askVolumes[0]) / (bidVolumes[0] + askVolumes[0]);
+            }else if (bidVolumes[0] + bidVolumes[1] >= 50){
+                theo_price = (bidPrices[0]*bidVolumes[0] + bidPrices[1]*bidVolumes[1] + askPrices[0]*askVolumes[0] + askPrices[1]*askVolumes[1]) / (bidVolumes[0] + askVolumes[0] +  bidVolumes[1] + askVolumes[1]);
+            }else{
+                theo_price = (bidPrices[0]*bidVolumes[0] + bidPrices[1]*bidVolumes[1] + bidPrices[2]*bidVolumes[2] + askPrices[0]*askVolumes[0] + askPrices[1]*askVolumes[1] + askPrices[2]*askVolumes[2]) / (bidVolumes[0] + askVolumes[0] +  bidVolumes[1] + askVolumes[1] + bidVolumes[2] + askVolumes[2]);
+            }
+
+            unsigned long newBidPrice = (bidPrices[0] != 0) ? theo_price - 10 : 0;
+            newBidPrice = newBidPrice/100 * 100;
+            unsigned long newAskPrice = (askPrices[0] != 0) ? theo_price + 10 : 0;
+            newAskPrice = newAskPrice/100 * 100;
+            std::cout<<"ETF newAskPrice is "<<newAskPrice<<" our ask price is "<<std::endl;
+
             // If the new quoted price differs from the existing quoted price, cancel the old order.
-            if (mAskId != 0 && newAskPrice != 0 && newAskPrice != mAskPrice)
-            {
+            if (mAskId != 0 && newAskPrice != 0 && newAskPrice != mAskPrice){
                 SendCancelOrder(mAskId);
-                std::cout<<"send cancel order\n";
+                std::cout<<"send ETF cancel order, newAskPrice is "<<newAskPrice<<" our ask price is "<<mAskPrice<<std::endl;
                 mAskId = 0;
-                action_cnt++;
             }
-            if (mBidId != 0 && newBidPrice != 0 && newBidPrice != mBidPrice)
-            {
+            if (mBidId != 0 && newBidPrice != 0 && newBidPrice != mBidPrice){
                 SendCancelOrder(mBidId);
-                std::cout<<"send cancel order\n";
+                std::cout<<"send ETF cancel order newBidPrice is "<<newBidPrice<<" our ask price is "<<mBidPrice<<std::endl;
                 mBidId = 0;
-                action_cnt++;
             }
-
             mAskVolume = ask_vol_map[mPosition];
             mBidVolume = bid_vol_map[mPosition];
             // Determine bid volume according to current position.
-            if (mAskId == 0 && newAskPrice != 0 && mPosition > -POSITION_LIMIT && mAskVolume != 0)
-            {
+            if (mAskId == 0 && newAskPrice != 0 && mPosition > -POSITION_LIMIT && mAskVolume != 0){
                 mAskId = mNextMessageId++;
                 mAskPrice = newAskPrice;
-                // mAskVolume = ask_vol_map[mPosition];
-                std::cout<<"send insert order\n";
-                SendInsertOrder(mAskId, Side::SELL, newAskPrice, mAskVolume, Lifespan::GOOD_FOR_DAY); // dynamic mAskVolume will consider market impact or minimize risk
+                std::cout<<"send ETF insert order, newAskPrice is "<<newAskPrice<<" our ask price is "<<mAskPrice<<std::endl;
+                SendInsertOrder(mAskId, Side::SELL, askPrices[0]-2, mAskVolume, Lifespan::GOOD_FOR_DAY); // dynamic mAskVolume will consider market impact or minimize risk
                 mAsks.emplace(mAskId);
-                action_cnt++;
             }
-            if (mBidId == 0 && newBidPrice != 0 && mPosition < POSITION_LIMIT && mBidVolume != 0)
-            {
+            if (mBidId == 0 && newBidPrice != 0 && mPosition < POSITION_LIMIT && mBidVolume != 0){
                 mBidId = mNextMessageId++;
                 mBidPrice = newBidPrice;
-                // mBidVolume = bid_vol_map[mPosition];
-                
-                std::cout<<"send insert order\n";
-                SendInsertOrder(mBidId, Side::BUY, newBidPrice, mBidVolume, Lifespan::GOOD_FOR_DAY);
+                std::cout<<"send ETF insert order newBidPrice is "<<newBidPrice<<" our ask price is "<<mBidPrice<<std::endl;
+                SendInsertOrder(mBidId, Side::BUY, bidPrices[0]+5, mBidVolume, Lifespan::GOOD_FOR_DAY);
                 mBids.emplace(mBidId);
-                action_cnt++;
             }
-        }else if (action_cnt >= 49){
-            time_diff = std::difftime(std::time(nullptr), begin_time);
-            if (time_diff < 1.0){
-                // std::cout << "sleep " << 1.0-time_diff << " seconds" << std::endl;
-                // sleep(1.0-time_diff);
-            }
-            action_cnt = 0;
         }
-        
     }
+    */
 }
 
 void AutoTrader::OrderFilledMessageHandler(unsigned long clientOrderId,
@@ -162,11 +187,13 @@ void AutoTrader::OrderFilledMessageHandler(unsigned long clientOrderId,
     {
         mPosition -= (long)volume;
         SendHedgeOrder(mNextMessageId++, Side::BUY, MAX_ASK_NEAREST_TICK, volume);
+        std::cout<<"send [buy hedge order], ask price is "<<MAX_ASK_NEAREST_TICK<<std::endl;
     }
     else if (mBids.count(clientOrderId) == 1)
     {
         mPosition += (long)volume;
         SendHedgeOrder(mNextMessageId++, Side::SELL, MIN_BID_NEARST_TICK, volume);
+        std::cout<<"send [sell hedge order], sell price is "<<MIN_BID_NEARST_TICK<<std::endl;
     }
 }
 
@@ -204,13 +231,6 @@ void AutoTrader::TradeTicksMessageHandler(Instrument instrument,
                                    << "; bid prices: " << bidPrices[0]
                                    << "; bid volumes: " << bidVolumes[0];
 }
-
-
-// void AutoTrader::PositionChangeMessageHandler(int future_position, int etf_position){
-//     mPosition = etf_position;
-//     mBidVolume = bid_vol_map[mPosition];
-//     mAskVolume = ask_vol_map[mPosition];
-// }
 
 std::pair<std::map<int, int>, std::map<int, int>> AutoTrader::QuoteMaps(float riskFactor){
     std::map<int, int> bid_vol_map;
