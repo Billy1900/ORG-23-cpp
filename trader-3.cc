@@ -65,20 +65,22 @@ bool AutoTrader::checkMessageLimit() {
     return true;
 }
 
-bool AutoTrader::sendBidOrder(unsigned long price, unsigned long volume, Lifespan lifespanType) {
+bool AutoTrader::sendBidOrder(unsigned long price, long volume, Lifespan lifespanType) {
     if (!checkMessageLimit()) {
         return false;
     }
+    
     unsigned long bidId = mNextMessageId++;
     SendInsertOrder(bidId, Side::BUY, price, volume, lifespanType);
     mBids[bidId] = price;
     return true;
 }
 
-bool AutoTrader::sendAskOrder(unsigned long price, unsigned long volume, Lifespan lifespanType) {
+bool AutoTrader::sendAskOrder(unsigned long price, long volume, Lifespan lifespanType) {
     if (!checkMessageLimit()) {
         return false;
     }
+    
     unsigned long askId = mNextMessageId++;
     SendInsertOrder(askId, Side::SELL, price, volume, lifespanType);
     mAsks[askId] = price;
@@ -130,14 +132,14 @@ void AutoTrader::handleArbitrage(const std::array<unsigned long, TOP_LEVEL_COUNT
                                 const std::array<unsigned long, TOP_LEVEL_COUNT>& bidVolumes){
     if (askPrices[0] < futureBid){
         // arbitrage, buy etf and sell future
-        unsigned long buy_volume = std::min(askVolumes[0], (unsigned long)ARBITRAGE_LIMIT - mPosition);
+        long buy_volume = std::min((long)askVolumes[0], (long)ARBITRAGE_LIMIT - mPosition);
         unsigned long buy_price = askPrices[0];
         if (buy_volume > 0){
             sendBidOrder(buy_price, buy_volume, Lifespan::FILL_AND_KILL);
         }
     }else if (bidPrices[0] > futureAsk){
         // arbitrage, buy future and sell etf
-        unsigned long sell_volume = std::min(bidVolumes[0], (unsigned long)ARBITRAGE_LIMIT + mPosition);
+        long sell_volume = std::min((long)bidVolumes[0], (long)ARBITRAGE_LIMIT + mPosition);
         unsigned long sell_price = bidPrices[0];
         if (sell_volume > 0){
             sendAskOrder(sell_price, sell_volume, Lifespan::FILL_AND_KILL);
@@ -149,8 +151,8 @@ void AutoTrader::clearBook(const std::array<unsigned long, TOP_LEVEL_COUNT>& ask
                             const std::array<unsigned long, TOP_LEVEL_COUNT>& askVolumes,
                             const std::array<unsigned long, TOP_LEVEL_COUNT>& bidPrices,
                             const std::array<unsigned long, TOP_LEVEL_COUNT>& bidVolumes){
-    unsigned long cutoff_ask = askPrices[askPrices.size() - 1];
-    unsigned long cutoff_bid = bidPrices[bidPrices.size() - 1];
+    unsigned long cutoff_ask = askPrices.back();
+    unsigned long cutoff_bid = bidPrices.back();
     unsigned long bid_vol = 0;
     unsigned long ask_vol = 0;
 
@@ -187,16 +189,16 @@ void AutoTrader::handleMarketMaking(const std::array<unsigned long, TOP_LEVEL_CO
                                 const std::array<unsigned long, TOP_LEVEL_COUNT>& askVolumes,
                                 const std::array<unsigned long, TOP_LEVEL_COUNT>& bidPrices,
                                 const std::array<unsigned long, TOP_LEVEL_COUNT>& bidVolumes){
-    // clearBook(ask_prices, bid_prices, ask_volumes, bid_volumes);
-    int max_buy_order = int((POSITION_LIMIT - mPosition) / LOT_SIZE) - mBids.size();
-    int max_sell_order = int((mPosition + POSITION_LIMIT) / LOT_SIZE) - mAsks.size();
+    clearBook(askPrices, bidPrices, askVolumes, bidVolumes);
+    int max_buy_order = (int)(((long)POSITION_LIMIT - mPosition) / LOT_SIZE) - mBids.size();
+    int max_sell_order = (int)((mPosition + (long)POSITION_LIMIT) / LOT_SIZE) - mAsks.size();
 
     unsigned long max_bid = futureBid - 2 * TICK_SIZE_IN_CENTS;
     unsigned long min_ask = futureAsk + 2 * TICK_SIZE_IN_CENTS;
     unsigned long etf_bid = bidPrices[0];
     unsigned long etf_ask = askPrices[0];
 
-    for (int i = min_ask; i < etf_ask; i += TICK_SIZE_IN_CENTS) {
+    for (unsigned long i = min_ask; i < etf_ask; i += TICK_SIZE_IN_CENTS) {
         bool found = false;
         for (const auto& pair : mAsks) {
             if (pair.second == i) {
@@ -211,7 +213,7 @@ void AutoTrader::handleMarketMaking(const std::array<unsigned long, TOP_LEVEL_CO
         }
     }
 
-    for (int i = etf_bid; i < max_bid; i += TICK_SIZE_IN_CENTS) {
+    for (unsigned long i = etf_bid; i < max_bid; i += TICK_SIZE_IN_CENTS) {
         bool found = false;
         for (const auto& pair : mBids) {
             if (pair.second == i) {
@@ -288,19 +290,19 @@ void AutoTrader::OrderFilledMessageHandler(unsigned long clientOrderId,
 {
     RLOG(LG_AT, LogLevel::LL_INFO) << "order " << clientOrderId << " filled for " << volume
                                    << " lots at $" << price << " cents";
-    if (mAsks.count(clientOrderId) == 1)
-    {
-        mPosition -= (long)volume;
-        delta -= (long)volume;
-        // SendHedgeOrder(mNextMessageId++, Side::BUY, MAX_ASK_NEAREST_TICK, volume);
-        sendHedgeOrder(MAX_ASK_NEAREST_TICK, volume, Side::BUY);
-    }
-    else if (mBids.count(clientOrderId) == 1)
+    
+    if (mBids.count(clientOrderId))
     {
         mPosition += (long)volume;
         delta += (long)volume;
         // SendHedgeOrder(mNextMessageId++, Side::SELL, MIN_BID_NEARST_TICK, volume);
         sendHedgeOrder(MIN_BID_NEARST_TICK, volume, Side::SELL);
+    }else if (mAsks.count(clientOrderId))
+    {
+        mPosition -= (long)volume;
+        delta -= (long)volume;
+        // SendHedgeOrder(mNextMessageId++, Side::BUY, MAX_ASK_NEAREST_TICK, volume);
+        sendHedgeOrder(MAX_ASK_NEAREST_TICK, volume, Side::BUY);
     }
 }
 

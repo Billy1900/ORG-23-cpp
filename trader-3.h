@@ -23,11 +23,9 @@
 #include <string>
 #include <unordered_set>
 #include <deque>
+#include <unordered_map>
 #include <chrono>
 #include <thread>
-#include <unordered_map>
-#include <algorithm>
-#include <iostream>
 
 #include <boost/asio/io_context.hpp>
 
@@ -104,10 +102,10 @@ public:
     bool checkMessageLimit();
 
     // Wrapper to send bid orders
-    bool sendBidOrder(unsigned long price, unsigned long volume, ReadyTraderGo::Lifespan lifespanType);
+    bool sendBidOrder(unsigned long price, long volume, ReadyTraderGo::Lifespan lifespanType);
 
     // Wrapper to send ask orders
-    bool sendAskOrder(unsigned long price, unsigned long volume, ReadyTraderGo::Lifespan lifespanType);
+    bool sendAskOrder(unsigned long price, long volume, ReadyTraderGo::Lifespan lifespanType);
 
     // Wrapper to send hedge orders
     // Hedge cannot be ignored, must be sent
@@ -146,9 +144,9 @@ public:
 
 private:
     unsigned long mNextMessageId = 1;
-    unsigned long mAskId = 0;
+    // unsigned long mAskId = 0;
     // unsigned long mAskPrice = 0;
-    unsigned long mBidId = 0;
+    // unsigned long mBidId = 0;
     // unsigned long mBidPrice = 0;
     signed long mPosition = 0;
     std::unordered_map<unsigned long, unsigned long> mAsks; // {id: rice}
@@ -159,8 +157,8 @@ private:
     long delta = 0;
     unsigned long msgSeq = 0;
     std::deque<double> orderTimestamps;
-    std::unordered_set<unsigned long> hedgeBid;
-    std::unordered_set<unsigned long> hedgeAsk;
+    std::unordered_set<unsigned long> hedgeBid; // store message ID
+    std::unordered_set<unsigned long> hedgeAsk; // store message ID
 };
 
 #endif //CPPREADY_TRADER_GO_AUTOTRADER_H
