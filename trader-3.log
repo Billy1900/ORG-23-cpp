@@ -1,0 +1,205 @@
+2023-03-19 12:10:18.455802 [INFO   ] [APP] application started
+2023-03-19 12:10:18.456369 [INFO   ] [APP] loading configuration from 'trader-3.json'
+2023-03-19 12:10:18.457413 [INFO   ] [CON] connecting to: 127.0.0.1:12345
+2023-03-19 12:10:18.457649 [INFO   ] [CON] connected successfully to: 127.0.0.1:12345
+2023-03-19 12:10:18.457721 [INFO   ] [BASE] logging in with teamname='TraderThree' and secret='secret'
+2023-03-19 12:10:23.418836 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127700; bid volumes: 1
+2023-03-19 12:10:23.758520 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 126600; bid volumes: 37
+2023-03-19 12:10:23.828024 [INFO   ] [AUTO] order 7 filled for 20 lots at $126600 cents
+2023-03-19 12:10:23.828140 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 126600; bid volumes: 20
+2023-03-19 12:10:23.829259 [INFO   ] [AUTO] hedge order 8 filled for 20 lots at $126700 average price in cents
+2023-03-19 12:10:24.473053 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 126700; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:24.679712 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 126800; ask volumes: 1860; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:25.864386 [INFO   ] [AUTO] order 10 filled for 20 lots at $127400 cents
+2023-03-19 12:10:25.870665 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127400; ask volumes: 20; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:25.870715 [INFO   ] [AUTO] hedge order 16 filled for 20 lots at $127400 average price in cents
+2023-03-19 12:10:26.121398 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127400; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:26.220964 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127300; bid volumes: 2980
+2023-03-19 12:10:26.292715 [INFO   ] [AUTO] order 17 filled for 25 lots at $127400 cents
+2023-03-19 12:10:26.293167 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 4160
+2023-03-19 12:10:26.293215 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127400; bid volumes: 25
+2023-03-19 12:10:26.294359 [INFO   ] [AUTO] hedge order 18 filled for 25 lots at $127300 average price in cents
+2023-03-19 12:10:26.770347 [INFO   ] [AUTO] order 11 filled for 7 lots at $127500 cents
+2023-03-19 12:10:26.770615 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127500; ask volumes: 7; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:26.770870 [INFO   ] [AUTO] hedge order 21 filled for 7 lots at $127500 average price in cents
+2023-03-19 12:10:26.819816 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127400; bid volumes: 330
+2023-03-19 12:10:27.359427 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127600; ask volumes: 2360; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:27.795917 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127700; bid volumes: 1000
+2023-03-19 12:10:28.435231 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 128000; bid volumes: 1000
+2023-03-19 12:10:28.700020 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 128000; bid volumes: 1000
+2023-03-19 12:10:29.704010 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 149
+2023-03-19 12:10:29.821288 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127800; bid volumes: 2000
+2023-03-19 12:10:30.107472 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127800; ask volumes: 11; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:30.316414 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127600; bid volumes: 1000
+2023-03-19 12:10:30.552948 [INFO   ] [AUTO] error with order 27: order rejected: active order volume limit breached
+2023-03-19 12:10:30.799193 [INFO   ] [AUTO] error with order 28: order rejected: active order volume limit breached
+2023-03-19 12:10:31.038588 [INFO   ] [AUTO] error with order 29: order rejected: active order volume limit breached
+2023-03-19 12:10:31.264911 [INFO   ] [AUTO] error with order 30: order rejected: active order volume limit breached
+2023-03-19 12:10:31.488016 [INFO   ] [AUTO] error with order 31: order rejected: active order volume limit breached
+2023-03-19 12:10:31.611352 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127400; bid volumes: 2000
+2023-03-19 12:10:31.803726 [INFO   ] [AUTO] error with order 32: order rejected: active order volume limit breached
+2023-03-19 12:10:32.025819 [INFO   ] [AUTO] error with order 33: order rejected: active order volume limit breached
+2023-03-19 12:10:32.238445 [INFO   ] [AUTO] error with order 34: order rejected: active order volume limit breached
+2023-03-19 12:10:32.416517 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127800; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:32.533864 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127200; ask volumes: 43; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:32.533991 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127800; ask volumes: 750; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:32.552185 [INFO   ] [AUTO] error with order 35: order rejected: active order volume limit breached
+2023-03-19 12:10:32.761858 [INFO   ] [AUTO] error with order 36: order rejected: active order volume limit breached
+2023-03-19 12:10:32.977101 [INFO   ] [AUTO] order 20 filled for 20 lots at $127000 cents
+2023-03-19 12:10:32.978083 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127000; bid volumes: 107
+2023-03-19 12:10:32.978127 [INFO   ] [AUTO] hedge order 37 filled for 20 lots at $127600 average price in cents
+2023-03-19 12:10:33.008409 [INFO   ] [AUTO] error with order 38: order rejected: active order volume limit breached
+2023-03-19 12:10:33.111663 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127600; bid volumes: 1000
+2023-03-19 12:10:33.302699 [INFO   ] [AUTO] error with order 39: order rejected: active order volume limit breached
+2023-03-19 12:10:33.408127 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127000; bid volumes: 31
+2023-03-19 12:10:33.501819 [INFO   ] [AUTO] error with order 40: order rejected: active order volume limit breached
+2023-03-19 12:10:33.720979 [INFO   ] [AUTO] error with order 41: order rejected: active order volume limit breached
+2023-03-19 12:10:33.756895 [INFO   ] [AUTO] order 19 filled for 14 lots at $126900 cents
+2023-03-19 12:10:33.757100 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 126900; bid volumes: 14
+2023-03-19 12:10:33.757359 [INFO   ] [AUTO] hedge order 42 filled for 14 lots at $127400 average price in cents
+2023-03-19 12:10:33.997805 [INFO   ] [AUTO] order 43 filled for 43 lots at $127300 cents
+2023-03-19 12:10:33.997919 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127300; ask volumes: 43; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:33.998213 [INFO   ] [AUTO] hedge order 44 filled for 43 lots at $127500 average price in cents
+2023-03-19 12:10:34.052269 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127900; ask volumes: 12; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:34.117157 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127500; bid volumes: 1000
+2023-03-19 12:10:34.407158 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127600; ask volumes: 1480; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:34.523399 [INFO   ] [AUTO] order 45 filled for 20 lots at $127800 cents
+2023-03-19 12:10:34.529742 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127800; ask volumes: 20; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:34.529795 [INFO   ] [AUTO] hedge order 46 filled for 20 lots at $127700 average price in cents
+2023-03-19 12:10:35.772885 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127600; ask volumes: 20; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:35.954810 [INFO   ] [AUTO] order 47 filled for 9 lots at $127700 cents
+2023-03-19 12:10:35.954979 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127700; ask volumes: 9; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:35.955543 [INFO   ] [AUTO] hedge order 49 filled for 9 lots at $127800 average price in cents
+2023-03-19 12:10:36.801480 [INFO   ] [AUTO] order 47 filled for 11 lots at $127700 cents
+2023-03-19 12:10:36.801657 [INFO   ] [AUTO] order 48 filled for 20 lots at $127800 cents
+2023-03-19 12:10:36.803946 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127700; ask volumes: 11; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:36.804156 [INFO   ] [AUTO] hedge order 50 filled for 11 lots at $127700 average price in cents
+2023-03-19 12:10:36.804287 [INFO   ] [AUTO] hedge order 51 filled for 20 lots at $127700 average price in cents
+2023-03-19 12:10:37.054735 [INFO   ] [AUTO] order 52 filled for 20 lots at $127900 cents
+2023-03-19 12:10:37.055379 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127900; ask volumes: 20; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:37.055680 [INFO   ] [AUTO] hedge order 53 filled for 20 lots at $127700 average price in cents
+2023-03-19 12:10:37.399045 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127600; ask volumes: 530; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:38.213208 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127700; ask volumes: 30; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:38.501654 [INFO   ] [AUTO] order 26 filled for 12 lots at $128300 cents
+2023-03-19 12:10:38.501818 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 128300; ask volumes: 12; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:38.501976 [INFO   ] [AUTO] hedge order 55 filled for 12 lots at $127800 average price in cents
+2023-03-19 12:10:40.006773 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 128100; ask volumes: 87; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:40.693974 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127700; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:41.215227 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127800; ask volumes: 100; bid prices: 127800; bid volumes: 1000
+2023-03-19 12:10:41.237504 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127800; bid volumes: 1000
+2023-03-19 12:10:41.619585 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 128300; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:41.676815 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 128200; bid volumes: 3070
+2023-03-19 12:10:41.731195 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 128000; ask volumes: 490; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:41.731277 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127500; bid volumes: 68
+2023-03-19 12:10:44.314414 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 128100; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:45.150494 [INFO   ] [AUTO] order 26 filled for 2 lots at $128300 cents
+2023-03-19 12:10:45.155656 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 128300; ask volumes: 2; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:45.178924 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127600; bid volumes: 40
+2023-03-19 12:10:45.180628 [INFO   ] [AUTO] hedge order 57 filled for 2 lots at $128300 average price in cents
+2023-03-19 12:10:46.506164 [INFO   ] [AUTO] error with order 58: order rejected: active order count limit breached
+2023-03-19 12:10:46.617672 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127800; bid volumes: 1750
+2023-03-19 12:10:46.751205 [INFO   ] [AUTO] error with order 59: order rejected: active order count limit breached
+2023-03-19 12:10:46.854365 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 128200; bid volumes: 21
+2023-03-19 12:10:47.361138 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127600; ask volumes: 830; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:47.968032 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127500; bid volumes: 31
+2023-03-19 12:10:48.431167 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127700; ask volumes: 170; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:49.065319 [INFO   ] [AUTO] order 26 filled for 6 lots at $128300 cents
+2023-03-19 12:10:49.068378 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 128300; ask volumes: 6; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:49.068713 [INFO   ] [AUTO] hedge order 60 filled for 6 lots at $128000 average price in cents
+2023-03-19 12:10:51.314872 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127900; ask volumes: 25; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:51.726696 [INFO   ] [AUTO] error with order 61: order rejected: active order volume limit breached
+2023-03-19 12:10:52.052863 [INFO   ] [AUTO] error with order 62: order rejected: active order volume limit breached
+2023-03-19 12:10:52.254525 [INFO   ] [AUTO] error with order 63: order rejected: active order volume limit breached
+2023-03-19 12:10:52.523623 [INFO   ] [AUTO] error with order 64: order rejected: active order volume limit breached
+2023-03-19 12:10:52.523911 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127900; ask volumes: 46; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:52.730491 [INFO   ] [AUTO] order 65 filled for 32 lots at $127900 cents
+2023-03-19 12:10:52.730611 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127900; ask volumes: 32; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:52.730869 [INFO   ] [AUTO] hedge order 66 filled for 32 lots at $128000 average price in cents
+2023-03-19 12:10:53.468343 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127600; bid volumes: 17
+2023-03-19 12:10:54.461636 [INFO   ] [AUTO] order 67 filled for 20 lots at $128300 cents
+2023-03-19 12:10:54.461846 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 128300; ask volumes: 20; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:54.462190 [INFO   ] [AUTO] hedge order 68 filled for 20 lots at $128100 average price in cents
+2023-03-19 12:10:54.733809 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127800; bid volumes: 1000
+2023-03-19 12:10:55.600764 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127500; bid volumes: 1250
+2023-03-19 12:10:55.859912 [INFO   ] [AUTO] order 56 filled for 20 lots at $127500 cents
+2023-03-19 12:10:55.867272 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127500; bid volumes: 22
+2023-03-19 12:10:55.867322 [INFO   ] [AUTO] hedge order 69 filled for 20 lots at $127400 average price in cents
+2023-03-19 12:10:56.264650 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127400; ask volumes: 1100; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:56.371838 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 7
+2023-03-19 12:10:56.427777 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 8
+2023-03-19 12:10:56.427840 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127300; bid volumes: 1000
+2023-03-19 12:10:56.470893 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 1000
+2023-03-19 12:10:56.529163 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 1000
+2023-03-19 12:10:57.183441 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127200; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:57.676316 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 28
+2023-03-19 12:10:58.250762 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 5
+2023-03-19 12:10:58.482864 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127200; ask volumes: 920; bid prices: 0; bid volumes: 0
+2023-03-19 12:10:59.829296 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127500; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:00.480423 [INFO   ] [AUTO] order 72 filled for 3 lots at $127400 cents
+2023-03-19 12:11:00.481844 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127400; ask volumes: 3; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:00.482052 [INFO   ] [AUTO] hedge order 73 filled for 3 lots at $127600 average price in cents
+2023-03-19 12:11:02.148955 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127600; bid volumes: 1000
+2023-03-19 12:11:03.204568 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127300; bid volumes: 1000
+2023-03-19 12:11:05.105297 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 45
+2023-03-19 12:11:05.213945 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127500; ask volumes: 1050; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:06.315133 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 1000
+2023-03-19 12:11:06.871272 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127200; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:07.564443 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 10
+2023-03-19 12:11:07.718228 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127400; ask volumes: 1480; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:08.052681 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 10
+2023-03-19 12:11:08.231135 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127400; ask volumes: 770; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:08.235820 [INFO   ] [AUTO] order 76 filled for 32 lots at $127300 cents
+2023-03-19 12:11:08.235984 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127300; ask volumes: 32; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:08.236223 [INFO   ] [AUTO] hedge order 77 filled for 32 lots at $127400 average price in cents
+2023-03-19 12:11:09.163901 [INFO   ] [AUTO] order 70 filled for 20 lots at $127600 cents
+2023-03-19 12:11:09.164056 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127600; ask volumes: 55; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:09.164330 [INFO   ] [AUTO] hedge order 78 filled for 20 lots at $127500 average price in cents
+2023-03-19 12:11:10.762213 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 15
+2023-03-19 12:11:10.910580 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 1000
+2023-03-19 12:11:11.070832 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127100; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:11.856772 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127600; ask volumes: 55; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:12.330234 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127000; bid volumes: 1000
+2023-03-19 12:11:12.467567 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127000; ask volumes: 3000; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:12.503889 [INFO   ] [AUTO] error with order 81: order rejected: active order count limit breached
+2023-03-19 12:11:12.760980 [INFO   ] [AUTO] error with order 82: order rejected: active order count limit breached
+2023-03-19 12:11:13.050943 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127600; ask volumes: 52; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:13.051232 [INFO   ] [AUTO] error with order 83: order rejected: active order count limit breached
+2023-03-19 12:11:13.115750 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127000; ask volumes: 3120; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:13.763073 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 30
+2023-03-19 12:11:14.515634 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127100; ask volumes: 1550; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:14.561941 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127300; ask volumes: 2000; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:14.798991 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127600; ask volumes: 102; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:16.108579 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 13
+2023-03-19 12:11:17.772835 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127300; bid volumes: 10
+2023-03-19 12:11:18.259611 [INFO   ] [AUTO] order 79 filled for 20 lots at $127700 cents
+2023-03-19 12:11:18.259871 [INFO   ] [AUTO] order 80 filled for 8 lots at $127800 cents
+2023-03-19 12:11:18.260660 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127700; ask volumes: 20; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:18.260779 [INFO   ] [AUTO] hedge order 84 filled for 20 lots at $127200 average price in cents
+2023-03-19 12:11:18.261161 [INFO   ] [AUTO] hedge order 85 filled for 8 lots at $127200 average price in cents
+2023-03-19 12:11:18.557100 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 37
+2023-03-19 12:11:19.761857 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 82
+2023-03-19 12:11:20.266906 [INFO   ] [AUTO] error with order 86: order rejected: active order volume limit breached
+2023-03-19 12:11:20.511351 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 45
+2023-03-19 12:11:20.966404 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 35
+2023-03-19 12:11:23.506462 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127300; ask volumes: 7; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:23.667575 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127200; ask volumes: 1000; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:24.154161 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127300; ask volumes: 3; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:24.546925 [INFO   ] [AUTO] order 80 filled for 12 lots at $127800 cents
+2023-03-19 12:11:24.547401 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127300; ask volumes: 35; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:24.547519 [INFO   ] [AUTO] hedge order 87 filled for 12 lots at $127400 average price in cents
+2023-03-19 12:11:25.161323 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127900; ask volumes: 41; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:25.871848 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127900; ask volumes: 9; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:25.871892 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127200; bid volumes: 1000
+2023-03-19 12:11:26.656716 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127700; ask volumes: 29; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:27.670713 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127000; bid volumes: 1000
+2023-03-19 12:11:27.906945 [INFO   ] [AUTO] trade ticks received for ETF instrument: ask prices: 127600; ask volumes: 7; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:28.063778 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127100; ask volumes: 3270; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:29.411780 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 127400; ask volumes: 10; bid prices: 0; bid volumes: 0
+2023-03-19 12:11:29.471501 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127400; bid volumes: 2000
+2023-03-19 12:11:29.935193 [INFO   ] [AUTO] trade ticks received for Future instrument: ask prices: 0; ask volumes: 0; bid prices: 127100; bid volumes: 1000
+2023-03-19 12:11:29.985706 [INFO   ] [AUTO] order 88 filled for 26 lots at $127000 cents
+2023-03-19 12:11:29.985918 [INFO   ] [AUTO] error with order 88: ETF position limit breached
+2023-03-19 12:11:29.990036 [ERROR  ] [CON] 'Exec' read error: Connection reset by peer
+2023-03-19 12:11:29.990062 [INFO   ] [AUTO] execution connection lost
+2023-03-19 12:11:29.990074 [INFO   ] [CON] 'Info' closing
+2023-03-19 12:11:29.990104 [INFO   ] [CON] 'Exec' closing

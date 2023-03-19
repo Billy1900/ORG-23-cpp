@@ -1,7 +1,8 @@
-rm trader-2
-rm trader-2.log
+i=3
+rm trader-$i
+rm trader-$i.log
 # Build and run
-cmake -DCMAKE_BUILD_TYPE=Release -B build-2
-cmake --build build-2 --config Release
-cp build-2/trader-2 .
-python3.11 rtg.py run trader-2
+cmake -DCMAKE_BUILD_TYPE=Release -B build-$i
+cmake --build build-$i --config Release
+cp build-$i/trader-$i .
+python3.11 rtg.py run trader-$i

@@ -31,8 +31,11 @@ include_directories(${PROJECT_SOURCE_DIR}/libs)
 # add_executable(autotrader main.cc autotrader.cc autotrader.h)
 # target_link_libraries(autotrader PRIVATE ready_trader_go_lib ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
 
-add_executable(trader-2 main.cc trader-2.cc trader-2.h)
-target_link_libraries(trader-2 PRIVATE ready_trader_go_lib ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
+# add_executable(trader-2 main.cc trader-2.cc trader-2.h)
+# target_link_libraries(trader-2 PRIVATE ready_trader_go_lib ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
+
+add_executable(trader-3 main.cc trader-3.cc trader-3.h)
+target_link_libraries(trader-3 PRIVATE ready_trader_go_lib ${Boost_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
 
 if(${Boost_UNIT_TEST_FRAMEWORK_FOUND})
     if(IS_DIRECTORY ${PROJECT_SOURCE_DIR}/unit_tests)
